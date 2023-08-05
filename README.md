@@ -4,8 +4,6 @@
 
 # About SCKAN Connectivity Knowledge Base
 
-![1691211943785](https://file+.vscode-resource.vscode-cdn.net/Users/fahimimam/Library/CloudStorage/OneDrive-UniversityofCalifornia%2CSanDiegoHealth/GitHub/smtifahim/sckan-query-examples/image/README/1691211943785.png)
-
 A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonomic Nervous System (SCKAN).
 
 * SCKAN contains knowledge about CNS-ANS-end organ connectivity
@@ -16,7 +14,7 @@ A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonom
   * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped
     to the community ontologies like UBERON
 
-## How are Neuronal Connectivites Modelled in SCKAN?
+## Representing SCKAN Connectivity Models
 
 The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level. A neuron population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
 
@@ -32,11 +30,11 @@ The following diagram depicts how Neuron populations are modelled in SCKAN.
 
 ![1691213471866](image/README/1691213471866.png)
 
-## The Phenotypic Relations in SCKAN
+### The Phenotypic Relations in SCKAN
 
 To write the SPARQL queries we simply need to know about the following relational predicates used in SCKAN as listed in the tables below.
 
-### Locational Phenotypes in SCKAN
+#### Locational Phenotypes in SCKAN
 
 | Phenotypic Relation                  | Description                                                                                                                                                |
 | ------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -46,7 +44,7 @@ To write the SPARQL queries we simply need to know about the following relationa
 | **4. hasAxonTerminalLocation** | Expresses a relation between a neuron population and its axon terminal location<br />(i.e., the location of the axon presynaptic element)                  |
 | **5. hasAxonSensoryLocation**  | Expresses a relation between a neuron population and its sensory axon terminal location<br />(i.e., the location of the axon sensory subcellular element) |
 
-### **Other Phenotypes in SCKAN**
+#### **Other Phenotypes in SCKAN**
 
 | Phenotypic Relation                | Description                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
