@@ -18,7 +18,7 @@ A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonom
 
 ## How are Neuronal Connectivites Modelled in SCKAN?
 
-The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level Neuron Population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
+The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level. A neuron population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
 
 * SCKAN can model connectivity of a single neuron population based on locational phenotypes, largely in the following form:
 
