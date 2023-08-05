@@ -1,6 +1,6 @@
 # SCKAN Query Examples
 
-* [Query examples in Jupyter Notebook](https://github.com/smtifahim/sckan-query-examples/blob/main/sckan-sparql-query-examples.ipynb)
+* [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
 
 # About SCKAN Connectivity Knowledge Base
 
