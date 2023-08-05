@@ -36,13 +36,13 @@ To write the SPARQL queries we simply need to know about the following relationa
 
 #### Locational Phenotypes in SCKAN
 
-| Phenotypic Relation                  | Description                                                                                                                                                |
-| ------------------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. hasSomaLocation**         | Expresses a relation between a neuron population and its origin i.e., location of the cell body                                                            |
-| **2. hasAxonLocation**         | Expresses a relation between a neuron population and its axon location                                                                                    |
-| **3. hasDendriteLocation**     | Expresses a relation between a neuron population and its dendrite location                                                                                |
-| **4. hasAxonTerminalLocation** | Expresses a relation between a neuron population and its axon terminal location<br />(i.e., the location of the axon presynaptic element)                  |
-| **5. hasAxonSensoryLocation**  | Expresses a relation between a neuron population and its sensory axon terminal location<br />(i.e., the location of the axon sensory subcellular element) |
+| Phenotypic Relation               | Description                                                                                                                                                |
+| --------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **hasSomaLocation**         | Expresses a relation between a neuron population and its origin i.e., location of the cell body                                                            |
+| **hasAxonLocation**         | Expresses a relation between a neuron population and its axon location                                                                                    |
+| **hasDendriteLocation**     | Expresses a relation between a neuron population and its dendrite location                                                                                |
+| **hasAxonTerminalLocation** | Expresses a relation between a neuron population and its axon terminal location<br />(i.e., the location of the axon presynaptic element)                  |
+| **hasAxonSensoryLocation**  | Expresses a relation between a neuron population and its sensory axon terminal location<br />(i.e., the location of the axon sensory subcellular element) |
 
 #### **Other Phenotypes in SCKAN**
 
