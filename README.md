@@ -26,7 +26,7 @@ The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’
   * SCKAN also supports modelling of the partial orders of the axonal paths between the origin
     and the destination of the neuron populations
 
-The following diagram depicts how Neuron populations are modelled in SCKAN. 
+The following diagram depicts how Neuron populations are modelled in SCKAN.
 
 ![1691213471866](image/README/1691213471866.png)
 
