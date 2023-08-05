@@ -14,7 +14,7 @@ A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonom
   * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped
     to the community ontologies like UBERON
 
-## Representing SCKAN Connectivity Models
+## SCKAN Connectivity Models
 
 The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level. A neuron population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
 
