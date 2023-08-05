@@ -56,4 +56,4 @@ To write the SPARQL queries we simply need to know about the following relationa
 | **hasPhenotypicSex**         | Expresses a relationship between a neuron type and a biological sex. Used when a neuron population<br />has been observed in a specific sex.<br />- **Male or **Female** from PATO**                                                                                                                                     |
 | **hasForwardConnection**     | Expresses a relationship to specify the synaptic forward connection from a pre-ganglionic neuron<br />population to a post-ganglionic neuron population.                                                                                                                                                                             |
 
-##### Explore the [Query examples in Jupyter Notebook](https://github.com/smtifahim/sckan-query-examples/blob/main/sckan-sparql-query-examples.ipynb)
+##### Explore the [Query examples in Jupyter Notebook](https://github.com/smtifahim/sckan-query-examples/blob/main/sckan-sparql-query-examples.ipynb).
