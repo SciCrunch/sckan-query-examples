@@ -23,8 +23,7 @@ The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’
   * **"Neurons with somas in structure A project to structure B via structure C."**
 * SCKAN  supports modelling the locations of the somas, dendrites, axon segments, and synapses for its neuron populations
 
-  * SCKAN also supports modelling of the partial orders of the axonal paths between the origin
-    and the destination of the neuron populations
+  * SCKAN also supports modelling of the partial orders of the axonal paths between the origin and the destination of the neuron populations
 
 The following diagram depicts how Neuron populations are modelled in SCKAN.
 
