@@ -1,6 +1,6 @@
 # SCKAN Query Examples
 
-* [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
+## - [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
 
 # About SCKAN Connectivity Knowledge Base
 
@@ -8,8 +8,7 @@ A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonom
 
 * SCKAN contains knowledge about CNS-ANS-end organ connectivity derived from credible sources
 
-  * Interviews with SPARC investigators, Anatomical experts (SAWG)
-  * Textbooks, SPARC data, and Scientific literature (using NLP and then curated)
+  * Interviews with SPARC Investigators, Anatomical experts (SAWG), Textbooks, SPARC data, and Scientific Literature (using an NLP pipepline and then curated)
 * SCKAN is represented in a form that supports automated reasoning
 
   * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped to the community ontologies like UBERON
@@ -45,7 +44,7 @@ To write the SPARQL queries we simply need to know about the following relationa
 #### **Other Phenotypes in SCKAN**
 
 | Phenotypic Relation                | Description                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **hasNeuronalPhenotype**     | Expresses a relation between a neuron population and its ANS phenotype<br />- **Pre-Ganglionic or Post-Ganglionic**, **Sympathetic** or **Parasympathetic**<br />- Combinations like  **Sympathetic  Pre-Ganglionic** or **Parasympathetic Post-Ganglionic**                                    |
 | **hasFunctionalCircuitRole** | Expresses a relation between a neuron population and its immediate effect on postsynaptic cells<br />- **Excitatory** or **Inhibitory**                                                                                                                                                                           |
 | **hasCircuitRole**           | Expresses a relation between a neuron population and its circuit role phenotype<br />- Possible phenotypes are: **Intrinsic**, **Motor**, **Sensory**, or **Projection**                                                                                                                               |
