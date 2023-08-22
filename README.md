@@ -6,13 +6,13 @@
 
 A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonomic Nervous System (SCKAN).
 
-* SCKAN contains knowledge about CNS-ANS-end organ connectivity
-  * Derived from credible sources
-    * Interviews with SPARC investigators, Anatomical experts (SAWG)
-    * Textbooks, SPARC data, and Scientific literature (using NLP and then curated)
+* SCKAN contains knowledge about CNS-ANS-end organ connectivity derived from credible sources
+
+  * Interviews with SPARC investigators, Anatomical experts (SAWG)
+  * Textbooks, SPARC data, and Scientific literature (using NLP and then curated)
 * SCKAN is represented in a form that supports automated reasoning
-  * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped
-    to the community ontologies like UBERON
+
+  * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped to the community ontologies like UBERON
 
 ## SCKAN Connectivity Models
 
@@ -22,8 +22,7 @@ The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’
 
   * **"Neurons with somas in structure A project to structure B via structure C."**
 * SCKAN  supports modelling the locations of the somas, dendrites, axon segments, and synapses for its neuron populations
-
-  * SCKAN also supports modelling of the partial orders of the axonal paths between the origin and the destination of the neuron populations
+* SCKAN also supports modelling of the partial orders of the axonal paths between the origin and the destination of the neuron populations
 
 The following diagram depicts how Neuron populations are modelled in SCKAN.
 
