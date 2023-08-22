@@ -1,21 +1,10 @@
 # SCKAN Query Examples
 
-## - [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
+* [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
 
-# About SCKAN Connectivity Knowledge Base
+# About SCKAN Connectivity Models
 
-A core component of SPARC is the SPARC Connectivity Knowledgebase of the Autonomic Nervous System (SCKAN).
-
-* SCKAN contains knowledge about CNS-ANS-end organ connectivity derived from credible sources
-
-  * Interviews with SPARC Investigators, Anatomical experts (SAWG), Textbooks, SPARC data, and Scientific Literature (using an NLP pipepline and then curated)
-* SCKAN is represented in a form that supports automated reasoning
-
-  * Connections are annotated with SPARC vocabularies - a set of SPARC anatomical terms mapped to the community ontologies like UBERON
-
-## SCKAN Connectivity Models
-
-The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level. A neuron population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
+A core component of SPARC is the [SPARC Connectivity Knowledgebase of the Autonomic Nervous System](https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD) (SCKAN). The neuronal connectivities in SCKAN are modelled at the ‘Neuron Population’ level. A neuron population refers to a set of neuron types with shared defining properties e.g., phenotypes. For example, populations that have their somas located in the SCG can be differentiated by considering their projection targets.
 
 * SCKAN can model connectivity of a single neuron population based on locational phenotypes, largely in the following form:
 
@@ -27,11 +16,11 @@ The following diagram depicts how Neuron populations are modelled in SCKAN.
 
 ![1691213471866](image/README/1691213471866.png)
 
-### The Phenotypic Relations in SCKAN
+# The Phenotypic Relations in SCKAN
 
-To write the SPARQL queries we simply need to know about the following relational predicates used in SCKAN as listed in the tables below.
+To get started with writing SPARQL queries for SCKAN we simply need to know about the phenotypic relations (predicates) supported by [Simple SCKAN](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md) as listed in the tables below.
 
-#### Locational Phenotypes in SCKAN
+## Locational Phenotypes in SCKAN
 
 | Phenotypic Relation               | Description                                                                                                                                           |
 | --------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -41,7 +30,7 @@ To write the SPARQL queries we simply need to know about the following relationa
 | **hasAxonTerminalLocation** | Expresses a relation between a neuron population and its axon terminal location<br />(i.e., the location of the axon presynaptic element)             |
 | **hasAxonSensoryLocation**  | Expresses a relation between a neuron population and its sensory axon terminal location (i.e., the location of the axon sensory subcellular element) |
 
-#### **Other Phenotypes in SCKAN**
+## **Other Phenotypes in SCKAN**
 
 | Phenotypic Relation                | Description                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
