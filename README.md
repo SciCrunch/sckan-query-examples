@@ -183,7 +183,7 @@ ORDER BY ?Neuron_ID ?A_Label ?B_Label ?C_Label
 
 ##### Visual Query Result for CQ-1
 
-The visual query results in Figure-3 shows the origins of these connections (right panel) and the nerves through which they traverse, including bladder nerve, pelvic splanchnic nerve, and hypogastric nerve.
+The visual query results in Figure-3 shows the origins of the connections and the nerves through which they traverse, including bladder nerve, pelvic splanchnic nerve, and hypogastric nerve.
 
 ![1734515894426](image/README/1734515894426.jpg)
 
