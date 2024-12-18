@@ -15,7 +15,7 @@ This document provides the basic background knowledge necessary to explore SCKAN
     + [Other Phenotypes in SCKAN](#other-phenotypes-in-sckan)
 - [SCKAN Competency Queries](#sckan-competency-queries)
   - [How to Run the Competency Queries](#how-to-run-the-competency-queries)
-  - [CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections 	terminate. What nerves are involved in those connections?](#cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections-)
+  - [CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections 	terminate. What nerves are involved in those connections?](#cq-1-what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections-?)
     * [Raw Query Result for CQ-1](#raw-query-result-for-cq-1)
     * [Visual Query Result for CQ-1](#visual-query-result-for-cq-1)
   - [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
