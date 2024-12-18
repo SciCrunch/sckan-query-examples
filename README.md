@@ -1,6 +1,6 @@
 # Exploring SCKAN Using Example Queries
 
-This document provides the basic background knowledge necessary to write SPARQL queries to explore SCKAN. It also includes a set of competency quries (CQs) to demonstrate how SCKAN can be used to ask questions relevant to ANS connectivity.
+This document provides the basic background knowledge necessary to explore SCKAN using SPARQL. It also includes a set of competency quries (CQs) to demonstrate how SCKAN can be used to ask questions relevant to ANS connectivity.
 
 ### Jump to the [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
 
@@ -12,21 +12,21 @@ This document provides the basic background knowledge necessary to write SPARQL 
   * [SCKAN Connectivity Examples](#sckan-connectivity-examples)
   * [Phenotypic Relations in SCKAN](#phenotypic-relations-in-sckan)
     + [Locational Phenotypes in SCKAN](#locational-phenotypes-in-sckan)
-    + [Other Phenotypes in SCKAN](#--other-phenotypes-in-sckan--)
+    + [Other Phenotypes in SCKAN](#other-phenotypes-in-sckan)
 - [SCKAN Competency Queries](#sckan-competency-queries)
-  - [How to Run the Competency Queries](#how-to-run-the-competency-queries)
-  - [*CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?*](#-cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections--)
-    * [**Raw Query Result for *CQ-1***](#--raw-query-result-for--cq-1---)
-    * [Visual Query Result for *CQ-1*](#visual-query-result-for--cq-1-)
-  - [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
-    * [**Raw Query Result for *CQ-2***](#--raw-query-result-for--cq-2---)
-    * [Visual Query Result for *CQ-2*](#visual-query-result-for--cq-2-)
-  - [*CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?*](#-cq-3--what-anatomical-structures-might-be-affected-by-perturbation-of-the-inferior-mesenteric-ganglion--)
-    * [**Raw Query Result for *CQ-3***](#--raw-query-result-for--cq-3---)
-    * [Visual Query Result for *CQ-3*](#visual-query-result-for--cq-3-)
-  - [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
-    * [**Raw Query Result for *CQ-4***](#--raw-query-result-for--cq-4---)
-    * [Visual Query Result for *CQ-4*](#visual-query-result-for--cq-4-)
+  	- [How to Run the Competency Queries](#how-to-run-the-competency-queries)
+  	- [CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections 	terminate. What nerves are involved in those connections?](#cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections-)
+  		* [Raw Query Result for CQ-1](#raw-query-result-for-cq-1)
+  		* [Visual Query Result for CQ-1](#visual-query-result-for-cq-1)
+  	- [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
+  		* [Raw Query Result for CQ-2](#raw-query-result-for-cq-2)
+  		* [Visual Query Result for CQ-2](#visual-query-result-for-cq-2)
+  	- [CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?](#cq-3--what-anatomical-structures-might-be-affected-by-perturbation-of-the-inferior-mesenteric-ganglion-)
+  		* [Raw Query Result for CQ-3](#raw-query-result-for-cq-3)
+  		* [Visual Query Result for CQ-3](#visual-query-result-for-cq-3)
+  	- [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
+  		* [Raw Query Result for CQ-4](#raw-query-result-for-cq-4)
+  		* [Visual Query Result for CQ-4](#visual-query-result-for-cq-4)
 - [Additional Query Examples](#additional-query-examples)
 
 # Introduction
@@ -131,7 +131,7 @@ SCKAN was designed to answer questions relevant to ANS connectivity. To demonstr
     * [Link for downloading uberon.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon.ttl)
     * [Link for downloading uberon-reasoned.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon-reasoned.ttl)
 
-#### *CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?*
+#### CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?
 
 The SPARQL query in **Listing 1** retrieves the required information by filtering the set of neuron populations in SCKAN with specific connections to the urinary bladder. The query identifies populations with their soma located in one region (Region A), their axon terminal or axon sensory terminal located in another region (Region B), and the axon potentially passing through or being located in a third region (Region C) which must be a nerve. The focus of the query is on neuron populations where Region B must satisfy the constraint of being a part of the bladder.
 
@@ -178,12 +178,12 @@ ORDER BY ?Neuron_ID ?A_Label ?B_Label ?C_Label
 
 > **Listing 1:** The SPARQL query for CQ1 to retrieve the connections projecting to the urinary bladder, detailing their origins (Region A), termination points within the bladder (Region B), and axon locations within associated nerves (Region C). [View the SPARQL code here](./competency-queries/CQ1-Query.rq).
 
-##### **Raw Query Result for *CQ-1***
+##### Raw Query Result for CQ-1
 
 * The query for all populations that terminate in the bladder returns connections contained within $6$ distinct neuron populations that have axon terminals in some part of the bladder.
 * Link to the raw query results in csv format: [CQ1-Results.csv](./competency-queries/CQ1-Results.csv).
 
-##### Visual Query Result for *CQ-1*
+##### Visual Query Result for CQ-1
 
 The visual query results in Figure-3 shows the origins of these connections (right panel) and the nerves through which they traverse, including bladder nerve, pelvic splanchnic nerve, and hypogastric nerve.
 
@@ -225,13 +225,13 @@ ORDER BY ?Neuron_ID ?Region_B ?Region_C
 > **Listing 2:** The SPARQL query for *CQ2* to retrieve neural connections with origins (Region A) and
 > destinations (Region B) that travel through the vagus nerve or its branches (Region C). [View the SPARQL code here](./competency-queries/CQ2-Query.rq).
 
-##### **Raw Query Result for *CQ-2***
+##### Raw Query Result for CQ-2
 
 * The query result shows that SCKAN currently has $35$ neuron populations traveling through the vagus nerve, arising from the following $7$ distinct origins: inferior vagus X ganglion (nodose ganglion), dorsal motor nucleus of vagus nerve, nucleus ambiguus, superior cervical ganglion, left nodose ganglion, right nodose ganglion, and the nucleus of solitary tract. The query returns $43$ distinct destination structures across different organs innervated by the vagus nerve or its branches.
 * The query recognizes the following partonomic vagus nerve branches from SCKAN: external and internal branches of superior laryngeal nerve, external and internal branches of inferior laryngeal nerve, superior laryngeal nerve, abdominal branch of vagus nerve, esophageal vagus trunk, vagus X nerve trunk, anterior and posterior abdominal vagal trunks, and the posterior hepatic branch of vagus nerve.
 * Link to the raw query results in csv format: [CQ2-Results.csv](./competency-queries/CQ2-Results.csv).
 
-##### Visual Query Result for *CQ-2*
+##### Visual Query Result for CQ-2
 
 Figure-4 shows the visual result for the vagus nerve connections in SCKAN based on *CQ-2*.
 
@@ -239,7 +239,7 @@ Figure-4 shows the visual result for the vagus nerve connections in SCKAN based 
 
 > **Figure 4:** A visual query result for *CQ-2*: The origins (the left nodes) and destinations (the nodes on the right) of neural connections via the vagus nerve or its brances (the nodes in the middle), highlighting its diverse innervation across multiple organs. ([View the SVG version of this diagram for better resolution](competency-queries/CQ2-Viz.svg))
 
-#### *CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?*
+#### CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?
 
 This type of query represents one of the driving motivations for SPARC and SCKAN, the ability to better predict on and off target effects for a given electrode placement. Based on the anatomical information in SCKAN, we can pose this query by retrieving all populations that have any part (soma, axon, axon terminal) in the IMG and then retrieving their origins and destinations. The SPARQL query for CQ3 is provided in **Listing 3** below.
 
@@ -274,12 +274,12 @@ ORDER BY ?Connected_Region
 > **Listing 3:** The SPARQL query for *CQ-3* to identify anatomical structures potentially affected by
 > perturbations of the inferior mesenteric ganglion (IMG) based on neuron populations in SCKAN.
 
-##### **Raw Query Result for *CQ-3***
+##### Raw Query Result for CQ-3
 
 * The query result shows that SCKAN currently has 55 distinct anatomical structures that might be affected by perturbation of the IMG.
 * Link to the raw query results in csv format: [CQ3-Results.csv](./competency-queries/CQ3-Results.csv).
 
-##### Visual Query Result for *CQ-3*
+##### Visual Query Result for CQ-3
 
 The visual result in **Figure 5** shows the $55$ unique structures that could potentially be affected through a perturbation of the IMG based on *CQ-3*.
 
@@ -345,12 +345,12 @@ ORDER BY ?Neuron_Connected ?V1 ?V2
 
 > **Listing-4:** The SPARQL code for *CQ-4* to trace sympathetic innervation pathways to the ovary, detailing origins, terminations, and routing of pre- and post-ganglionic connections, including synapse locations.
 
-##### **Raw Query Result for *CQ-4***
+##### Raw Query Result for CQ-4
 
 * The query result suggests that the sympathetic innervation to the ovaries involves $5$ preganglionic and $6$  postganglionic sympathetic neuron populations linked by the synaptic forward connections.
 * Link to the raw query results in csv format: [CQ4-Results.csv](./competency-queries/CQ4-Results.csv).
 
-##### Visual Query Result for *CQ-4*
+##### Visual Query Result for CQ-4
 
 Figure 6 shows the visualization of the result. The figure shows the origins, terminations, and routing for both pre- and post-ganglionic connections along with $5$ synaptic locations. It should be noted that the visual query result is simplified for easier comprehension by collapsing the nodes representing multiple adjacent segmental structures into single ones (e.g., using a single node like `T10-L1 segments of spinal cord’ instead of having 4 different nodes representing each individual segment between T10 and L1). This is an example of a query where the raw query results cannot be comprehended effectively without the use of visualizing tools.
 
