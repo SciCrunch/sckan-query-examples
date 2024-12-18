@@ -1,5 +1,7 @@
 # CQ2: What are all origins and destinations of neuron populations traveling through the vagus?
-# Query for CQ2: This query returns any neuron population that has its origin (soma) located in Region A, axon terminal or axon sensory terminal located in Region B, and axon located in nerve C where C is vagus nerve or its part.
+# Query for CQ2: This query returns any neuron population that has its origin (soma) located in 
+# Region A, axon terminal or axon sensory terminal located in Region B, and axon located in nerve C, 
+# where C is vagus nerve or its part.
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>

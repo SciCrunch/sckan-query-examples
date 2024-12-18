@@ -1,0 +1,462 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="748pt" height="814pt" viewBox="0.00 0.00 748.47 814.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 810.4)">
+<title>G</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-810.4 744.4662,-810.4 744.4662,4 -4,4"></polygon>
+<!-- T9&#45;T10 segments of thoracic spinal cord -->
+<g id="node1" class="node">
+<title>T9-T10 segments of thoracic spinal cord</title>
+<path fill="#eefaec" stroke="#000000" d="M174.9648,-443.9005C174.9648,-443.9005 85.348,-443.9005 85.348,-443.9005 79.348,-443.9005 73.348,-437.9005 73.348,-431.9005 73.348,-431.9005 73.348,-419.2995 73.348,-419.2995 73.348,-413.2995 79.348,-407.2995 85.348,-407.2995 85.348,-407.2995 174.9648,-407.2995 174.9648,-407.2995 180.9648,-407.2995 186.9648,-413.2995 186.9648,-419.2995 186.9648,-419.2995 186.9648,-431.9005 186.9648,-431.9005 186.9648,-437.9005 180.9648,-443.9005 174.9648,-443.9005"></path>
+<text text-anchor="middle" x="130.1564" y="-429.2" font-family="Times,serif" font-size="12.00" fill="#000000">T9-T10 segments of</text>
+<text text-anchor="middle" x="130.1564" y="-414.8" font-family="Times,serif" font-size="12.00" fill="#000000">thoracic spinal cord</text>
+</g>
+<!-- T9&#45;T10 white rami communicantes of thoracic spinal nerve -->
+<g id="node2" class="node">
+<title>T9-T10 white rami communicantes of thoracic spinal nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M311.1092,-367.3004C311.1092,-367.3004 189.2036,-367.3004 189.2036,-367.3004 183.2036,-367.3004 177.2036,-361.3004 177.2036,-355.3004 177.2036,-355.3004 177.2036,-327.8996 177.2036,-327.8996 177.2036,-321.8996 183.2036,-315.8996 189.2036,-315.8996 189.2036,-315.8996 311.1092,-315.8996 311.1092,-315.8996 317.1092,-315.8996 323.1092,-321.8996 323.1092,-327.8996 323.1092,-327.8996 323.1092,-355.3004 323.1092,-355.3004 323.1092,-361.3004 317.1092,-367.3004 311.1092,-367.3004"></path>
+<text text-anchor="middle" x="250.1564" y="-352.4" font-family="Times,serif" font-size="12.00" fill="#000000">T9-T10 white rami</text>
+<text text-anchor="middle" x="250.1564" y="-338" font-family="Times,serif" font-size="12.00" fill="#000000">communicantes of thoracic</text>
+<text text-anchor="middle" x="250.1564" y="-323.6" font-family="Times,serif" font-size="12.00" fill="#000000">spinal nerve</text>
+</g>
+<!-- T9&#45;T10 segments of thoracic spinal cord&#45;&gt;T9&#45;T10 white rami communicantes of thoracic spinal nerve -->
+<g id="edge1" class="edge">
+<title>T9-T10 segments of thoracic spinal cord-&gt;T9-T10 white rami communicantes of thoracic spinal nerve</title>
+<path fill="none" stroke="#000000" d="M156.4909,-407.1658C170.7087,-397.2134 188.6554,-384.6507 205.0259,-373.1914"></path>
+<polygon fill="#000000" stroke="#000000" points="207.2297,-375.9211 213.4149,-367.3191 203.2154,-370.1864 207.2297,-375.9211"></polygon>
+</g>
+<!-- splanchnic nerve -->
+<g id="node8" class="node">
+<title>splanchnic nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M147.6216,-359.6C147.6216,-359.6 74.6912,-359.6 74.6912,-359.6 68.6912,-359.6 62.6912,-353.6 62.6912,-347.6 62.6912,-347.6 62.6912,-335.6 62.6912,-335.6 62.6912,-329.6 68.6912,-323.6 74.6912,-323.6 74.6912,-323.6 147.6216,-323.6 147.6216,-323.6 153.6216,-323.6 159.6216,-329.6 159.6216,-335.6 159.6216,-335.6 159.6216,-347.6 159.6216,-347.6 159.6216,-353.6 153.6216,-359.6 147.6216,-359.6"></path>
+<text text-anchor="middle" x="111.1564" y="-338" font-family="Times,serif" font-size="12.00" fill="#000000">splanchnic nerve</text>
+</g>
+<!-- T9&#45;T10 segments of thoracic spinal cord&#45;&gt;splanchnic nerve -->
+<g id="edge7" class="edge">
+<title>T9-T10 segments of thoracic spinal cord-&gt;splanchnic nerve</title>
+<path fill="none" stroke="#000000" d="M125.9397,-406.9577C123.4457,-395.9315 120.2393,-381.756 117.4505,-369.4265"></path>
+<polygon fill="#000000" stroke="#000000" points="120.8509,-368.5951 115.2309,-359.6137 114.0234,-370.1395 120.8509,-368.5951"></polygon>
+</g>
+<!-- T12&#45;L1 paravertebral sympathetic chains -->
+<g id="node3" class="node">
+<title>T12-L1 paravertebral sympathetic chains</title>
+<path fill="#eefaec" stroke="#000000" d="M312.6026,-264.7182C312.6026,-264.7182 217.7102,-264.7182 217.7102,-264.7182 211.7102,-264.7182 205.7102,-258.7182 205.7102,-252.7182 205.7102,-252.7182 205.7102,-240.0818 205.7102,-240.0818 205.7102,-234.0818 211.7102,-228.0818 217.7102,-228.0818 217.7102,-228.0818 312.6026,-228.0818 312.6026,-228.0818 318.6026,-228.0818 324.6026,-234.0818 324.6026,-240.0818 324.6026,-240.0818 324.6026,-252.7182 324.6026,-252.7182 324.6026,-258.7182 318.6026,-264.7182 312.6026,-264.7182"></path>
+<path fill="none" stroke="#000000" d="M316.6008,-268.7004C316.6008,-268.7004 213.712,-268.7004 213.712,-268.7004 207.712,-268.7004 201.712,-262.7004 201.712,-256.7004 201.712,-256.7004 201.712,-236.0996 201.712,-236.0996 201.712,-230.0996 207.712,-224.0996 213.712,-224.0996 213.712,-224.0996 316.6008,-224.0996 316.6008,-224.0996 322.6008,-224.0996 328.6008,-230.0996 328.6008,-236.0996 328.6008,-236.0996 328.6008,-256.7004 328.6008,-256.7004 328.6008,-262.7004 322.6008,-268.7004 316.6008,-268.7004"></path>
+<text text-anchor="middle" x="265.1564" y="-250" font-family="Times,serif" font-size="12.00" fill="#000000">T12-L1 paravertebral</text>
+<text text-anchor="middle" x="265.1564" y="-235.6" font-family="Times,serif" font-size="12.00" fill="#000000">sympathetic chains</text>
+</g>
+<!-- T9&#45;T10 white rami communicantes of thoracic spinal nerve&#45;&gt;T12&#45;L1 paravertebral sympathetic chains -->
+<g id="edge2" class="edge">
+<title>T9-T10 white rami communicantes of thoracic spinal nerve-&gt;T12-L1 paravertebral sympathetic chains</title>
+<path fill="none" stroke="#000000" d="M254.2552,-315.5862C256.0398,-304.26 258.1504,-290.865 260.0368,-278.8927"></path>
+<polygon fill="#000000" stroke="#000000" points="263.5238,-279.2484 261.623,-268.8255 256.6091,-278.1588 263.5238,-279.2484"></polygon>
+</g>
+<!-- ovarian nerve plexus -->
+<g id="node4" class="node">
+<title>ovarian nerve plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M328.1164,-180.8C328.1164,-180.8 236.1964,-180.8 236.1964,-180.8 230.1964,-180.8 224.1964,-174.8 224.1964,-168.8 224.1964,-168.8 224.1964,-156.8 224.1964,-156.8 224.1964,-150.8 230.1964,-144.8 236.1964,-144.8 236.1964,-144.8 328.1164,-144.8 328.1164,-144.8 334.1164,-144.8 340.1164,-150.8 340.1164,-156.8 340.1164,-156.8 340.1164,-168.8 340.1164,-168.8 340.1164,-174.8 334.1164,-180.8 328.1164,-180.8"></path>
+<text text-anchor="middle" x="282.1564" y="-159.2" font-family="Times,serif" font-size="12.00" fill="#000000">ovarian nerve plexus</text>
+</g>
+<!-- T12&#45;L1 paravertebral sympathetic chains&#45;&gt;ovarian nerve plexus -->
+<g id="edge3" class="edge">
+<title>T12-L1 paravertebral sympathetic chains-&gt;ovarian nerve plexus</title>
+<path fill="none" stroke="#000000" d="M269.7121,-223.9967C271.7841,-213.8074 274.2579,-201.6423 276.452,-190.8524"></path>
+<polygon fill="#000000" stroke="#000000" points="279.8847,-191.5352 278.4477,-181.0382 273.0251,-190.1402 279.8847,-191.5352"></polygon>
+</g>
+<!-- left ovary -->
+<g id="node5" class="node">
+<title>left ovary</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="62.47,-108.4 -.1572,-108.4 -.1572,-72.4 62.47,-72.4 62.47,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="11.8428,-108.4 -.1572,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="-.1572,-84.4 11.8428,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="50.47,-72.4 62.47,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="62.47,-96.4 50.47,-108.4 "></polyline>
+<text text-anchor="middle" x="31.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">left ovary</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;left ovary -->
+<g id="edge4" class="edge">
+<title>ovarian nerve plexus-&gt;left ovary</title>
+<path fill="none" stroke="#000000" d="M224.0014,-150.89C183.4902,-141.9193 128.2072,-128.3359 72.1174,-108.851"></path>
+<polygon fill="#000000" stroke="#000000" points="72.9721,-105.441 62.3774,-105.4098 70.6402,-112.0412 72.9721,-105.441"></polygon>
+</g>
+<!-- right ovary -->
+<g id="node9" class="node">
+<title>right ovary</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="428.6424,-108.4 359.6704,-108.4 359.6704,-72.4 428.6424,-72.4 428.6424,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="371.6704,-108.4 359.6704,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="359.6704,-84.4 371.6704,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="416.6424,-72.4 428.6424,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="428.6424,-96.4 416.6424,-108.4 "></polyline>
+<text text-anchor="middle" x="394.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">right ovary</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;right ovary -->
+<g id="edge10" class="edge">
+<title>ovarian nerve plexus-&gt;right ovary</title>
+<path fill="none" stroke="#000000" d="M310.1298,-144.7172C324.4287,-135.474 342.0121,-124.1076 357.392,-114.1655"></path>
+<polygon fill="#000000" stroke="#000000" points="359.6534,-116.8714 366.1514,-108.5032 355.8532,-110.9927 359.6534,-116.8714"></polygon>
+</g>
+<!-- ovary stroma -->
+<g id="node23" class="node">
+<title>ovary stroma</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="525.636,-108.4 446.6768,-108.4 446.6768,-72.4 525.636,-72.4 525.636,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="458.6768,-108.4 446.6768,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="446.6768,-84.4 458.6768,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="513.636,-72.4 525.636,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="525.636,-96.4 513.636,-108.4 "></polyline>
+<text text-anchor="middle" x="486.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">ovary stroma</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;ovary stroma -->
+<g id="edge23" class="edge">
+<title>ovarian nerve plexus-&gt;ovary stroma</title>
+<path fill="none" stroke="#000000" d="M334.9972,-144.7423C365.0159,-134.3959 403.2602,-121.0667 437.1564,-108.8 437.2525,-108.7652 437.3488,-108.7304 437.4451,-108.6955"></path>
+<polygon fill="#000000" stroke="#000000" points="438.4171,-112.0668 446.6061,-105.3444 436.0123,-105.4928 438.4171,-112.0668"></polygon>
+</g>
+<!-- ovarian artery -->
+<g id="node24" class="node">
+<title>ovarian artery</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="234.6176,-108.4 151.6952,-108.4 151.6952,-72.4 234.6176,-72.4 234.6176,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="163.6952,-108.4 151.6952,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="151.6952,-84.4 163.6952,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="222.6176,-72.4 234.6176,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="234.6176,-96.4 222.6176,-108.4 "></polyline>
+<text text-anchor="middle" x="193.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">ovarian artery</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;ovarian artery -->
+<g id="edge25" class="edge">
+<title>ovarian nerve plexus-&gt;ovarian artery</title>
+<path fill="none" stroke="#000000" d="M259.6979,-144.5304C248.6522,-135.5449 235.1826,-124.5876 223.2586,-114.8877"></path>
+<polygon fill="#000000" stroke="#000000" points="225.2655,-112.0084 215.2994,-108.4129 220.8481,-117.4386 225.2655,-112.0084"></polygon>
+</g>
+<!-- ovarian follicle -->
+<g id="node25" class="node">
+<title>ovarian follicle</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="341.6272,-108.4 252.6856,-108.4 252.6856,-72.4 341.6272,-72.4 341.6272,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="264.6856,-108.4 252.6856,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="252.6856,-84.4 264.6856,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="329.6272,-72.4 341.6272,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="341.6272,-96.4 329.6272,-108.4 "></polyline>
+<text text-anchor="middle" x="297.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">ovarian follicle</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;ovarian follicle -->
+<g id="edge26" class="edge">
+<title>ovarian nerve plexus-&gt;ovarian follicle</title>
+<path fill="none" stroke="#000000" d="M285.9415,-144.5304C287.5884,-136.5817 289.5549,-127.0899 291.378,-118.2906"></path>
+<polygon fill="#000000" stroke="#000000" points="294.8228,-118.9151 293.4244,-108.4129 287.9684,-117.4949 294.8228,-118.9151"></polygon>
+</g>
+<!-- ovary -->
+<g id="node26" class="node">
+<title>ovary</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="134.1564,-108.4 80.1564,-108.4 80.1564,-72.4 134.1564,-72.4 134.1564,-108.4"></polygon>
+<polyline fill="none" stroke="#ff0000" points="92.1564,-108.4 80.1564,-96.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="80.1564,-84.4 92.1564,-72.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="122.1564,-72.4 134.1564,-84.4 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="134.1564,-96.4 122.1564,-108.4 "></polyline>
+<text text-anchor="middle" x="107.1564" y="-86.8" font-family="Times,serif" font-size="12.00" fill="#000000">ovary</text>
+</g>
+<!-- ovarian nerve plexus&#45;&gt;ovary -->
+<g id="edge35" class="edge">
+<title>ovarian nerve plexus-&gt;ovary</title>
+<path fill="none" stroke="#000000" d="M232.1141,-144.7686C207.6242,-135.621 177.6192,-123.9371 143.7152,-108.8757"></path>
+<polygon fill="#000000" stroke="#000000" points="145.0903,-105.6566 134.5338,-104.7565 142.2249,-112.0433 145.0903,-105.6566"></polygon>
+</g>
+<!-- Superior ovarian nerve -->
+<g id="node6" class="node">
+<title>Superior ovarian nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M158.11,-180.8C158.11,-180.8 56.2028,-180.8 56.2028,-180.8 50.2028,-180.8 44.2028,-174.8 44.2028,-168.8 44.2028,-168.8 44.2028,-156.8 44.2028,-156.8 44.2028,-150.8 50.2028,-144.8 56.2028,-144.8 56.2028,-144.8 158.11,-144.8 158.11,-144.8 164.11,-144.8 170.11,-150.8 170.11,-156.8 170.11,-156.8 170.11,-168.8 170.11,-168.8 170.11,-174.8 164.11,-180.8 158.11,-180.8"></path>
+<text text-anchor="middle" x="107.1564" y="-159.2" font-family="Times,serif" font-size="12.00" fill="#000000">Superior ovarian nerve</text>
+</g>
+<!-- Superior ovarian nerve&#45;&gt;left ovary -->
+<g id="edge5" class="edge">
+<title>Superior ovarian nerve-&gt;left ovary</title>
+<path fill="none" stroke="#000000" d="M87.9784,-144.5304C78.7275,-135.7177 67.4855,-125.0083 57.4506,-115.4487"></path>
+<polygon fill="#000000" stroke="#000000" points="59.7196,-112.7763 50.065,-108.4129 54.8914,-117.8446 59.7196,-112.7763"></polygon>
+</g>
+<!-- Superior ovarian nerve&#45;&gt;ovary -->
+<g id="edge27" class="edge">
+<title>Superior ovarian nerve-&gt;ovary</title>
+<path fill="none" stroke="#000000" d="M107.1564,-144.5304C107.1564,-136.6681 107.1564,-127.2961 107.1564,-118.5778"></path>
+<polygon fill="#000000" stroke="#000000" points="110.6565,-118.4129 107.1564,-108.4129 103.6565,-118.413 110.6565,-118.4129"></polygon>
+</g>
+<!-- celiac ganglion&#45;superior mesenteric ganglion complex -->
+<g id="node7" class="node">
+<title>celiac ganglion-superior mesenteric ganglion complex</title>
+<path fill="#eefaec" stroke="#000000" d="M165.4345,-272.0868C165.4345,-272.0868 56.8783,-272.0868 56.8783,-272.0868 50.8783,-272.0868 44.8783,-266.0868 44.8783,-260.0868 44.8783,-260.0868 44.8783,-232.7132 44.8783,-232.7132 44.8783,-226.7132 50.8783,-220.7132 56.8783,-220.7132 56.8783,-220.7132 165.4345,-220.7132 165.4345,-220.7132 171.4345,-220.7132 177.4345,-226.7132 177.4345,-232.7132 177.4345,-232.7132 177.4345,-260.0868 177.4345,-260.0868 177.4345,-266.0868 171.4345,-272.0868 165.4345,-272.0868"></path>
+<path fill="none" stroke="#000000" d="M169.4427,-276.1003C169.4427,-276.1003 52.8701,-276.1003 52.8701,-276.1003 46.8701,-276.1003 40.8701,-270.1003 40.8701,-264.1003 40.8701,-264.1003 40.8701,-228.6997 40.8701,-228.6997 40.8701,-222.6997 46.8701,-216.6997 52.8701,-216.6997 52.8701,-216.6997 169.4427,-216.6997 169.4427,-216.6997 175.4427,-216.6997 181.4427,-222.6997 181.4427,-228.6997 181.4427,-228.6997 181.4427,-264.1003 181.4427,-264.1003 181.4427,-270.1003 175.4427,-276.1003 169.4427,-276.1003"></path>
+<text text-anchor="middle" x="111.1564" y="-257.2" font-family="Times,serif" font-size="12.00" fill="#000000">celiac ganglion-superior</text>
+<text text-anchor="middle" x="111.1564" y="-242.8" font-family="Times,serif" font-size="12.00" fill="#000000">mesenteric ganglion</text>
+<text text-anchor="middle" x="111.1564" y="-228.4" font-family="Times,serif" font-size="12.00" fill="#000000">complex</text>
+</g>
+<!-- celiac ganglion&#45;superior mesenteric ganglion complex&#45;&gt;ovarian nerve plexus -->
+<g id="edge9" class="edge">
+<title>celiac ganglion-superior mesenteric ganglion complex-&gt;ovarian nerve plexus</title>
+<path fill="none" stroke="#000000" d="M171.9261,-216.6904C193.0585,-206.359 216.3962,-194.9494 236.1363,-185.2987"></path>
+<polygon fill="#000000" stroke="#000000" points="237.7748,-188.3936 245.2214,-180.8571 234.7003,-182.1049 237.7748,-188.3936"></polygon>
+</g>
+<!-- celiac ganglion&#45;superior mesenteric ganglion complex&#45;&gt;Superior ovarian nerve -->
+<g id="edge6" class="edge">
+<title>celiac ganglion-superior mesenteric ganglion complex-&gt;Superior ovarian nerve</title>
+<path fill="none" stroke="#000000" d="M109.7349,-216.6904C109.3414,-208.4671 108.9153,-199.5607 108.5249,-191.4018"></path>
+<polygon fill="#000000" stroke="#000000" points="112.0121,-191.0485 108.0381,-181.2272 105.0201,-191.3831 112.0121,-191.0485"></polygon>
+</g>
+<!-- splanchnic nerve&#45;&gt;celiac ganglion&#45;superior mesenteric ganglion complex -->
+<g id="edge8" class="edge">
+<title>splanchnic nerve-&gt;celiac ganglion-superior mesenteric ganglion complex</title>
+<path fill="none" stroke="#000000" d="M111.1564,-323.2445C111.1564,-312.7565 111.1564,-299.1759 111.1564,-286.3551"></path>
+<polygon fill="#000000" stroke="#000000" points="114.6565,-286.3096 111.1564,-276.3096 107.6565,-286.3096 114.6565,-286.3096"></polygon>
+</g>
+<!-- T10&#45;L1 segments of spinal cord -->
+<g id="node10" class="node">
+<title>T10-L1 segments of spinal cord</title>
+<path fill="#eefaec" stroke="#000000" d="M575.6276,-589.5005C575.6276,-589.5005 454.6852,-589.5005 454.6852,-589.5005 448.6852,-589.5005 442.6852,-583.5005 442.6852,-577.5005 442.6852,-577.5005 442.6852,-564.8995 442.6852,-564.8995 442.6852,-558.8995 448.6852,-552.8995 454.6852,-552.8995 454.6852,-552.8995 575.6276,-552.8995 575.6276,-552.8995 581.6276,-552.8995 587.6276,-558.8995 587.6276,-564.8995 587.6276,-564.8995 587.6276,-577.5005 587.6276,-577.5005 587.6276,-583.5005 581.6276,-589.5005 575.6276,-589.5005"></path>
+<text text-anchor="middle" x="515.1564" y="-574.8" font-family="Times,serif" font-size="12.00" fill="#000000">T10-L1 segments of spinal</text>
+<text text-anchor="middle" x="515.1564" y="-560.4" font-family="Times,serif" font-size="12.00" fill="#000000">cord</text>
+</g>
+<!-- superior hypogastric nerve plexus -->
+<g id="node11" class="node">
+<title>superior hypogastric nerve plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M652.1076,-516.7005C652.1076,-516.7005 532.2052,-516.7005 532.2052,-516.7005 526.2052,-516.7005 520.2052,-510.7005 520.2052,-504.7005 520.2052,-504.7005 520.2052,-492.0995 520.2052,-492.0995 520.2052,-486.0995 526.2052,-480.0995 532.2052,-480.0995 532.2052,-480.0995 652.1076,-480.0995 652.1076,-480.0995 658.1076,-480.0995 664.1076,-486.0995 664.1076,-492.0995 664.1076,-492.0995 664.1076,-504.7005 664.1076,-504.7005 664.1076,-510.7005 658.1076,-516.7005 652.1076,-516.7005"></path>
+<text text-anchor="middle" x="592.1564" y="-502" font-family="Times,serif" font-size="12.00" fill="#000000">superior hypogastric nerve</text>
+<text text-anchor="middle" x="592.1564" y="-487.6" font-family="Times,serif" font-size="12.00" fill="#000000">plexus</text>
+</g>
+<!-- T10&#45;L1 segments of spinal cord&#45;&gt;superior hypogastric nerve plexus -->
+<g id="edge11" class="edge">
+<title>T10-L1 segments of spinal cord-&gt;superior hypogastric nerve plexus</title>
+<path fill="none" stroke="#000000" d="M534.5868,-552.8295C543.8884,-544.0352 555.1768,-533.3625 565.285,-523.8057"></path>
+<polygon fill="#000000" stroke="#000000" points="567.8703,-526.1781 572.7323,-516.7646 563.0612,-521.0915 567.8703,-526.1781"></polygon>
+</g>
+<!-- hypogastric nerve -->
+<g id="node12" class="node">
+<title>hypogastric nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M630.7903,-443.6C630.7903,-443.6 553.5225,-443.6 553.5225,-443.6 547.5225,-443.6 541.5225,-437.6 541.5225,-431.6 541.5225,-431.6 541.5225,-419.6 541.5225,-419.6 541.5225,-413.6 547.5225,-407.6 553.5225,-407.6 553.5225,-407.6 630.7903,-407.6 630.7903,-407.6 636.7903,-407.6 642.7903,-413.6 642.7903,-419.6 642.7903,-419.6 642.7903,-431.6 642.7903,-431.6 642.7903,-437.6 636.7903,-443.6 630.7903,-443.6"></path>
+<text text-anchor="middle" x="592.1564" y="-422" font-family="Times,serif" font-size="12.00" fill="#000000">hypogastric nerve</text>
+</g>
+<!-- superior hypogastric nerve plexus&#45;&gt;hypogastric nerve -->
+<g id="edge14" class="edge">
+<title>superior hypogastric nerve plexus-&gt;hypogastric nerve</title>
+<path fill="none" stroke="#000000" d="M592.1564,-480.0295C592.1564,-472.1237 592.1564,-462.7 592.1564,-453.9335"></path>
+<polygon fill="#000000" stroke="#000000" points="595.6565,-453.7124 592.1564,-443.7124 588.6565,-453.7125 595.6565,-453.7124"></polygon>
+</g>
+<!-- inferior hypogastric nerve plexus -->
+<g id="node13" class="node">
+<title>inferior hypogastric nerve plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M650.2709,-359.9005C650.2709,-359.9005 534.0419,-359.9005 534.0419,-359.9005 528.0419,-359.9005 522.0419,-353.9005 522.0419,-347.9005 522.0419,-347.9005 522.0419,-335.2995 522.0419,-335.2995 522.0419,-329.2995 528.0419,-323.2995 534.0419,-323.2995 534.0419,-323.2995 650.2709,-323.2995 650.2709,-323.2995 656.2709,-323.2995 662.2709,-329.2995 662.2709,-335.2995 662.2709,-335.2995 662.2709,-347.9005 662.2709,-347.9005 662.2709,-353.9005 656.2709,-359.9005 650.2709,-359.9005"></path>
+<text text-anchor="middle" x="592.1564" y="-345.2" font-family="Times,serif" font-size="12.00" fill="#000000">inferior hypogastric nerve</text>
+<text text-anchor="middle" x="592.1564" y="-330.8" font-family="Times,serif" font-size="12.00" fill="#000000">plexus</text>
+</g>
+<!-- hypogastric nerve&#45;&gt;inferior hypogastric nerve plexus -->
+<g id="edge12" class="edge">
+<title>hypogastric nerve-&gt;inferior hypogastric nerve plexus</title>
+<path fill="none" stroke="#000000" d="M592.1564,-407.3733C592.1564,-396.5505 592.1564,-382.5874 592.1564,-370.3124"></path>
+<polygon fill="#000000" stroke="#000000" points="595.6565,-370.0812 592.1564,-360.0813 588.6565,-370.0813 595.6565,-370.0812"></polygon>
+</g>
+<!-- pelvic ganglion -->
+<g id="node14" class="node">
+<title>pelvic ganglion</title>
+<path fill="#eefaec" stroke="#000000" d="M649.4635,-264.4C649.4635,-264.4 582.8493,-264.4 582.8493,-264.4 576.8493,-264.4 570.8493,-258.4 570.8493,-252.4 570.8493,-252.4 570.8493,-240.4 570.8493,-240.4 570.8493,-234.4 576.8493,-228.4 582.8493,-228.4 582.8493,-228.4 649.4635,-228.4 649.4635,-228.4 655.4635,-228.4 661.4635,-234.4 661.4635,-240.4 661.4635,-240.4 661.4635,-252.4 661.4635,-252.4 661.4635,-258.4 655.4635,-264.4 649.4635,-264.4"></path>
+<path fill="none" stroke="#000000" d="M653.4765,-268.4C653.4765,-268.4 578.8363,-268.4 578.8363,-268.4 572.8363,-268.4 566.8363,-262.4 566.8363,-256.4 566.8363,-256.4 566.8363,-236.4 566.8363,-236.4 566.8363,-230.4 572.8363,-224.4 578.8363,-224.4 578.8363,-224.4 653.4765,-224.4 653.4765,-224.4 659.4765,-224.4 665.4765,-230.4 665.4765,-236.4 665.4765,-236.4 665.4765,-256.4 665.4765,-256.4 665.4765,-262.4 659.4765,-268.4 653.4765,-268.4"></path>
+<text text-anchor="middle" x="616.1564" y="-242.8" font-family="Times,serif" font-size="12.00" fill="#000000">pelvic ganglion</text>
+</g>
+<!-- inferior hypogastric nerve plexus&#45;&gt;pelvic ganglion -->
+<g id="edge13" class="edge">
+<title>inferior hypogastric nerve plexus-&gt;pelvic ganglion</title>
+<path fill="none" stroke="#000000" d="M596.7838,-323.2445C599.9712,-310.6012 604.2916,-293.4635 608.0436,-278.5806"></path>
+<polygon fill="#000000" stroke="#000000" points="611.4787,-279.2724 610.5295,-268.7202 604.6911,-277.5612 611.4787,-279.2724"></polygon>
+</g>
+<!-- ovarian ganglion -->
+<g id="node21" class="node">
+<title>ovarian ganglion</title>
+<path fill="#eefaec" stroke="#000000" d="M532.6368,-264.4C532.6368,-264.4 459.676,-264.4 459.676,-264.4 453.676,-264.4 447.676,-258.4 447.676,-252.4 447.676,-252.4 447.676,-240.4 447.676,-240.4 447.676,-234.4 453.676,-228.4 459.676,-228.4 459.676,-228.4 532.6368,-228.4 532.6368,-228.4 538.6368,-228.4 544.6368,-234.4 544.6368,-240.4 544.6368,-240.4 544.6368,-252.4 544.6368,-252.4 544.6368,-258.4 538.6368,-264.4 532.6368,-264.4"></path>
+<path fill="none" stroke="#000000" d="M536.636,-268.4C536.636,-268.4 455.6768,-268.4 455.6768,-268.4 449.6768,-268.4 443.6768,-262.4 443.6768,-256.4 443.6768,-256.4 443.6768,-236.4 443.6768,-236.4 443.6768,-230.4 449.6768,-224.4 455.6768,-224.4 455.6768,-224.4 536.636,-224.4 536.636,-224.4 542.636,-224.4 548.636,-230.4 548.636,-236.4 548.636,-236.4 548.636,-256.4 548.636,-256.4 548.636,-262.4 542.636,-268.4 536.636,-268.4"></path>
+<text text-anchor="middle" x="496.1564" y="-242.8" font-family="Times,serif" font-size="12.00" fill="#000000">ovarian ganglion</text>
+</g>
+<!-- inferior hypogastric nerve plexus&#45;&gt;ovarian ganglion -->
+<g id="edge20" class="edge">
+<title>inferior hypogastric nerve plexus-&gt;ovarian ganglion</title>
+<path fill="none" stroke="#000000" d="M573.6466,-323.2445C560.1615,-309.8717 541.6063,-291.4712 526.0339,-276.0285"></path>
+<polygon fill="#000000" stroke="#000000" points="528.2293,-273.2764 518.6641,-268.7202 523.3002,-278.2468 528.2293,-273.2764"></polygon>
+</g>
+<!-- uterovaginal nerve plexus -->
+<g id="node15" class="node">
+<title>uterovaginal nerve plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M674.1128,-180.8C674.1128,-180.8 558.2,-180.8 558.2,-180.8 552.2,-180.8 546.2,-174.8 546.2,-168.8 546.2,-168.8 546.2,-156.8 546.2,-156.8 546.2,-150.8 552.2,-144.8 558.2,-144.8 558.2,-144.8 674.1128,-144.8 674.1128,-144.8 680.1128,-144.8 686.1128,-150.8 686.1128,-156.8 686.1128,-156.8 686.1128,-168.8 686.1128,-168.8 686.1128,-174.8 680.1128,-180.8 674.1128,-180.8"></path>
+<text text-anchor="middle" x="616.1564" y="-159.2" font-family="Times,serif" font-size="12.00" fill="#000000">uterovaginal nerve plexus</text>
+</g>
+<!-- pelvic ganglion&#45;&gt;uterovaginal nerve plexus -->
+<g id="edge15" class="edge">
+<title>pelvic ganglion-&gt;uterovaginal nerve plexus</title>
+<path fill="none" stroke="#000000" d="M616.1564,-223.9967C616.1564,-213.9124 616.1564,-201.8929 616.1564,-191.1865"></path>
+<polygon fill="#000000" stroke="#000000" points="619.6565,-191.0382 616.1564,-181.0382 612.6565,-191.0383 619.6565,-191.0382"></polygon>
+</g>
+<!-- postganglionic sympathetic fiber -->
+<g id="node16" class="node">
+<title>postganglionic sympathetic fiber</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M678.8028,-108.7005C678.8028,-108.7005 555.51,-108.7005 555.51,-108.7005 549.51,-108.7005 543.51,-102.7005 543.51,-96.7005 543.51,-96.7005 543.51,-84.0995 543.51,-84.0995 543.51,-78.0995 549.51,-72.0995 555.51,-72.0995 555.51,-72.0995 678.8028,-72.0995 678.8028,-72.0995 684.8028,-72.0995 690.8028,-78.0995 690.8028,-84.0995 690.8028,-84.0995 690.8028,-96.7005 690.8028,-96.7005 690.8028,-102.7005 684.8028,-108.7005 678.8028,-108.7005"></path>
+<text text-anchor="middle" x="617.1564" y="-94" font-family="Times,serif" font-size="12.00" fill="#000000">postganglionic sympathetic</text>
+<text text-anchor="middle" x="617.1564" y="-79.6" font-family="Times,serif" font-size="12.00" fill="#000000">fiber</text>
+</g>
+<!-- uterovaginal nerve plexus&#45;&gt;postganglionic sympathetic fiber -->
+<g id="edge17" class="edge">
+<title>uterovaginal nerve plexus-&gt;postganglionic sympathetic fiber</title>
+<path fill="none" stroke="#000000" d="M616.4087,-144.5304C616.5157,-136.7872 616.6429,-127.5798 616.7617,-118.9745"></path>
+<polygon fill="#000000" stroke="#000000" points="620.2621,-118.963 616.9007,-108.9156 613.2628,-118.8662 620.2621,-118.963"></polygon>
+</g>
+<!-- uterine artery -->
+<g id="node17" class="node">
+<title>uterine artery</title>
+<polygon fill="#feeeee" stroke="#ff0000" points="657.4529,-36 576.8599,-36 576.8599,0 657.4529,0 657.4529,-36"></polygon>
+<polyline fill="none" stroke="#ff0000" points="588.8599,-36 576.8599,-24 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="576.8599,-12 588.8599,0 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="645.4529,0 657.4529,-12 "></polyline>
+<polyline fill="none" stroke="#ff0000" points="657.4529,-24 645.4529,-36 "></polyline>
+<text text-anchor="middle" x="617.1564" y="-14.4" font-family="Times,serif" font-size="12.00" fill="#000000">uterine artery</text>
+</g>
+<!-- postganglionic sympathetic fiber&#45;&gt;uterine artery -->
+<g id="edge16" class="edge">
+<title>postganglionic sympathetic fiber-&gt;uterine artery</title>
+<path fill="none" stroke="#000000" d="M617.1564,-71.7552C617.1564,-64.0958 617.1564,-55.0529 617.1564,-46.5909"></path>
+<polygon fill="#000000" stroke="#000000" points="620.6565,-46.3309 617.1564,-36.331 613.6565,-46.331 620.6565,-46.3309"></polygon>
+</g>
+<!-- T10&#45;T11 segments of thoracic spinal cord -->
+<g id="node18" class="node">
+<title>T10-T11 segments of thoracic spinal cord</title>
+<path fill="#eefaec" stroke="#000000" d="M715.9648,-806.3005C715.9648,-806.3005 620.348,-806.3005 620.348,-806.3005 614.348,-806.3005 608.348,-800.3005 608.348,-794.3005 608.348,-794.3005 608.348,-781.6995 608.348,-781.6995 608.348,-775.6995 614.348,-769.6995 620.348,-769.6995 620.348,-769.6995 715.9648,-769.6995 715.9648,-769.6995 721.9648,-769.6995 727.9648,-775.6995 727.9648,-781.6995 727.9648,-781.6995 727.9648,-794.3005 727.9648,-794.3005 727.9648,-800.3005 721.9648,-806.3005 715.9648,-806.3005"></path>
+<text text-anchor="middle" x="668.1564" y="-791.6" font-family="Times,serif" font-size="12.00" fill="#000000">T10-T11 segments of</text>
+<text text-anchor="middle" x="668.1564" y="-777.2" font-family="Times,serif" font-size="12.00" fill="#000000">thoracic spinal cord</text>
+</g>
+<!-- celiac nerve plexus -->
+<g id="node19" class="node">
+<title>celiac nerve plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M710.11,-733.6C710.11,-733.6 626.2028,-733.6 626.2028,-733.6 620.2028,-733.6 614.2028,-727.6 614.2028,-721.6 614.2028,-721.6 614.2028,-709.6 614.2028,-709.6 614.2028,-703.6 620.2028,-697.6 626.2028,-697.6 626.2028,-697.6 710.11,-697.6 710.11,-697.6 716.11,-697.6 722.11,-703.6 722.11,-709.6 722.11,-709.6 722.11,-721.6 722.11,-721.6 722.11,-727.6 716.11,-733.6 710.11,-733.6"></path>
+<text text-anchor="middle" x="668.1564" y="-712" font-family="Times,serif" font-size="12.00" fill="#000000">celiac nerve plexus</text>
+</g>
+<!-- T10&#45;T11 segments of thoracic spinal cord&#45;&gt;celiac nerve plexus -->
+<g id="edge18" class="edge">
+<title>T10-T11 segments of thoracic spinal cord-&gt;celiac nerve plexus</title>
+<path fill="none" stroke="#000000" d="M668.1564,-769.3552C668.1564,-761.6958 668.1564,-752.6529 668.1564,-744.1909"></path>
+<polygon fill="#000000" stroke="#000000" points="671.6565,-743.9309 668.1564,-733.931 664.6565,-743.931 671.6565,-743.9309"></polygon>
+</g>
+<!-- superior mesenteric plexus -->
+<g id="node20" class="node">
+<title>superior mesenteric plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M728.2765,-661.6C728.2765,-661.6 608.0363,-661.6 608.0363,-661.6 602.0363,-661.6 596.0363,-655.6 596.0363,-649.6 596.0363,-649.6 596.0363,-637.6 596.0363,-637.6 596.0363,-631.6 602.0363,-625.6 608.0363,-625.6 608.0363,-625.6 728.2765,-625.6 728.2765,-625.6 734.2765,-625.6 740.2765,-631.6 740.2765,-637.6 740.2765,-637.6 740.2765,-649.6 740.2765,-649.6 740.2765,-655.6 734.2765,-661.6 728.2765,-661.6"></path>
+<text text-anchor="middle" x="668.1564" y="-640" font-family="Times,serif" font-size="12.00" fill="#000000">superior mesenteric plexus</text>
+</g>
+<!-- celiac nerve plexus&#45;&gt;superior mesenteric plexus -->
+<g id="edge19" class="edge">
+<title>celiac nerve plexus-&gt;superior mesenteric plexus</title>
+<path fill="none" stroke="#000000" d="M668.1564,-697.4314C668.1564,-689.731 668.1564,-680.5743 668.1564,-672.0166"></path>
+<polygon fill="#000000" stroke="#000000" points="671.6565,-672.0132 668.1564,-662.0133 664.6565,-672.0133 671.6565,-672.0132"></polygon>
+</g>
+<!-- intermesenteric plexus -->
+<g id="node22" class="node">
+<title>intermesenteric plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M718.4495,-589.2C718.4495,-589.2 617.8633,-589.2 617.8633,-589.2 611.8633,-589.2 605.8633,-583.2 605.8633,-577.2 605.8633,-577.2 605.8633,-565.2 605.8633,-565.2 605.8633,-559.2 611.8633,-553.2 617.8633,-553.2 617.8633,-553.2 718.4495,-553.2 718.4495,-553.2 724.4495,-553.2 730.4495,-559.2 730.4495,-565.2 730.4495,-565.2 730.4495,-577.2 730.4495,-577.2 730.4495,-583.2 724.4495,-589.2 718.4495,-589.2"></path>
+<text text-anchor="middle" x="668.1564" y="-567.6" font-family="Times,serif" font-size="12.00" fill="#000000">intermesenteric plexus</text>
+</g>
+<!-- superior mesenteric plexus&#45;&gt;intermesenteric plexus -->
+<g id="edge22" class="edge">
+<title>superior mesenteric plexus-&gt;intermesenteric plexus</title>
+<path fill="none" stroke="#000000" d="M668.1564,-625.3304C668.1564,-617.4681 668.1564,-608.0961 668.1564,-599.3778"></path>
+<polygon fill="#000000" stroke="#000000" points="671.6565,-599.2129 668.1564,-589.2129 664.6565,-599.213 671.6565,-599.2129"></polygon>
+</g>
+<!-- ovarian ganglion&#45;&gt;ovarian nerve plexus -->
+<g id="edge24" class="edge">
+<title>ovarian ganglion-&gt;ovarian nerve plexus</title>
+<path fill="none" stroke="#000000" d="M451.3665,-224.342C445.6154,-221.7093 439.7749,-219.1318 434.1564,-216.8 405.9366,-205.0882 374.1627,-193.5511 346.9896,-184.167"></path>
+<polygon fill="#000000" stroke="#000000" points="347.7963,-180.7437 337.2017,-180.8108 345.5258,-187.3652 347.7963,-180.7437"></polygon>
+</g>
+<!-- intermesenteric plexus&#45;&gt;superior hypogastric nerve plexus -->
+<g id="edge21" class="edge">
+<title>intermesenteric plexus-&gt;superior hypogastric nerve plexus</title>
+<path fill="none" stroke="#000000" d="M648.9784,-552.8295C639.7976,-544.0352 628.6558,-533.3625 618.6788,-523.8057"></path>
+<polygon fill="#000000" stroke="#000000" points="620.9709,-521.1545 611.3283,-516.7646 616.1287,-526.2096 620.9709,-521.1545"></polygon>
+</g>
+<!-- T4&#45;L2 intermediolateral cell columns -->
+<g id="node27" class="node">
+<title>T4-L2 intermediolateral cell columns</title>
+<path fill="#eefaec" stroke="#000000" d="M327.7805,-516.7005C327.7805,-516.7005 220.5323,-516.7005 220.5323,-516.7005 214.5323,-516.7005 208.5323,-510.7005 208.5323,-504.7005 208.5323,-504.7005 208.5323,-492.0995 208.5323,-492.0995 208.5323,-486.0995 214.5323,-480.0995 220.5323,-480.0995 220.5323,-480.0995 327.7805,-480.0995 327.7805,-480.0995 333.7805,-480.0995 339.7805,-486.0995 339.7805,-492.0995 339.7805,-492.0995 339.7805,-504.7005 339.7805,-504.7005 339.7805,-510.7005 333.7805,-516.7005 327.7805,-516.7005"></path>
+<text text-anchor="middle" x="274.1564" y="-502" font-family="Times,serif" font-size="12.00" fill="#000000">T4-L2 intermediolateral</text>
+<text text-anchor="middle" x="274.1564" y="-487.6" font-family="Times,serif" font-size="12.00" fill="#000000">cell columns</text>
+</g>
+<!-- greater splanchnic nerve -->
+<g id="node28" class="node">
+<title>greater splanchnic nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M477.9267,-443.6C477.9267,-443.6 368.3861,-443.6 368.3861,-443.6 362.3861,-443.6 356.3861,-437.6 356.3861,-431.6 356.3861,-431.6 356.3861,-419.6 356.3861,-419.6 356.3861,-413.6 362.3861,-407.6 368.3861,-407.6 368.3861,-407.6 477.9267,-407.6 477.9267,-407.6 483.9267,-407.6 489.9267,-413.6 489.9267,-419.6 489.9267,-419.6 489.9267,-431.6 489.9267,-431.6 489.9267,-437.6 483.9267,-443.6 477.9267,-443.6"></path>
+<text text-anchor="middle" x="423.1564" y="-422" font-family="Times,serif" font-size="12.00" fill="#000000">greater splanchnic nerve</text>
+</g>
+<!-- T4&#45;L2 intermediolateral cell columns&#45;&gt;greater splanchnic nerve -->
+<g id="edge28" class="edge">
+<title>T4-L2 intermediolateral cell columns-&gt;greater splanchnic nerve</title>
+<path fill="none" stroke="#000000" d="M311.7554,-480.0295C331.5812,-470.3428 356.0715,-458.377 377.0364,-448.1338"></path>
+<polygon fill="#000000" stroke="#000000" points="378.6372,-451.2472 386.0856,-443.7124 375.5642,-444.9577 378.6372,-451.2472"></polygon>
+</g>
+<!-- lesser splanchnic nerve -->
+<g id="node29" class="node">
+<title>lesser splanchnic nerve</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M326.9387,-443.6C326.9387,-443.6 223.3741,-443.6 223.3741,-443.6 217.3741,-443.6 211.3741,-437.6 211.3741,-431.6 211.3741,-431.6 211.3741,-419.6 211.3741,-419.6 211.3741,-413.6 217.3741,-407.6 223.3741,-407.6 223.3741,-407.6 326.9387,-407.6 326.9387,-407.6 332.9387,-407.6 338.9387,-413.6 338.9387,-419.6 338.9387,-419.6 338.9387,-431.6 338.9387,-431.6 338.9387,-437.6 332.9387,-443.6 326.9387,-443.6"></path>
+<text text-anchor="middle" x="275.1564" y="-422" font-family="Times,serif" font-size="12.00" fill="#000000">lesser splanchnic nerve</text>
+</g>
+<!-- T4&#45;L2 intermediolateral cell columns&#45;&gt;lesser splanchnic nerve -->
+<g id="edge29" class="edge">
+<title>T4-L2 intermediolateral cell columns-&gt;lesser splanchnic nerve</title>
+<path fill="none" stroke="#000000" d="M274.4087,-480.0295C274.5173,-472.1237 274.6468,-462.7 274.7672,-453.9335"></path>
+<polygon fill="#000000" stroke="#000000" points="278.2698,-453.7596 274.9076,-443.7124 271.2705,-453.6634 278.2698,-453.7596"></polygon>
+</g>
+<!-- prevertebral sympathetic ganglion in abdominal aortic plexus -->
+<g id="node30" class="node">
+<title>prevertebral sympathetic ganglion in abdominal aortic plexus</title>
+<path fill="#eefaec" stroke="#000000" d="M467.6055,-367.2868C467.6055,-367.2868 356.7073,-367.2868 356.7073,-367.2868 350.7073,-367.2868 344.7073,-361.2868 344.7073,-355.2868 344.7073,-355.2868 344.7073,-327.9132 344.7073,-327.9132 344.7073,-321.9132 350.7073,-315.9132 356.7073,-315.9132 356.7073,-315.9132 467.6055,-315.9132 467.6055,-315.9132 473.6055,-315.9132 479.6055,-321.9132 479.6055,-327.9132 479.6055,-327.9132 479.6055,-355.2868 479.6055,-355.2868 479.6055,-361.2868 473.6055,-367.2868 467.6055,-367.2868"></path>
+<path fill="none" stroke="#000000" d="M471.604,-371.3003C471.604,-371.3003 352.7088,-371.3003 352.7088,-371.3003 346.7088,-371.3003 340.7088,-365.3003 340.7088,-359.3003 340.7088,-359.3003 340.7088,-323.8997 340.7088,-323.8997 340.7088,-317.8997 346.7088,-311.8997 352.7088,-311.8997 352.7088,-311.8997 471.604,-311.8997 471.604,-311.8997 477.604,-311.8997 483.604,-317.8997 483.604,-323.8997 483.604,-323.8997 483.604,-359.3003 483.604,-359.3003 483.604,-365.3003 477.604,-371.3003 471.604,-371.3003"></path>
+<text text-anchor="middle" x="412.1564" y="-352.4" font-family="Times,serif" font-size="12.00" fill="#000000">prevertebral sympathetic</text>
+<text text-anchor="middle" x="412.1564" y="-338" font-family="Times,serif" font-size="12.00" fill="#000000">ganglion in abdominal</text>
+<text text-anchor="middle" x="412.1564" y="-323.6" font-family="Times,serif" font-size="12.00" fill="#000000">aortic plexus</text>
+</g>
+<!-- greater splanchnic nerve&#45;&gt;prevertebral sympathetic ganglion in abdominal aortic plexus -->
+<g id="edge30" class="edge">
+<title>greater splanchnic nerve-&gt;prevertebral sympathetic ganglion in abdominal aortic plexus</title>
+<path fill="none" stroke="#000000" d="M420.7696,-407.3733C419.7687,-399.7306 418.5628,-390.5219 417.3745,-381.4476"></path>
+<polygon fill="#000000" stroke="#000000" points="420.8211,-380.811 416.0522,-371.3501 413.8804,-381.7199 420.8211,-380.811"></polygon>
+</g>
+<!-- lesser splanchnic nerve&#45;&gt;prevertebral sympathetic ganglion in abdominal aortic plexus -->
+<g id="edge31" class="edge">
+<title>lesser splanchnic nerve-&gt;prevertebral sympathetic ganglion in abdominal aortic plexus</title>
+<path fill="none" stroke="#000000" d="M304.5463,-407.5799C319.209,-398.5897 337.467,-387.395 354.7559,-376.7945"></path>
+<polygon fill="#000000" stroke="#000000" points="356.9887,-379.531 363.6844,-371.3201 353.3298,-373.5634 356.9887,-379.531"></polygon>
+</g>
+<!-- aortic plexus -->
+<g id="node32" class="node">
+<title>aortic plexus</title>
+<path fill="#ecf1fe" stroke="#000000" stroke-dasharray="5,2" d="M412.8036,-264.4C412.8036,-264.4 359.5092,-264.4 359.5092,-264.4 353.5092,-264.4 347.5092,-258.4 347.5092,-252.4 347.5092,-252.4 347.5092,-240.4 347.5092,-240.4 347.5092,-234.4 353.5092,-228.4 359.5092,-228.4 359.5092,-228.4 412.8036,-228.4 412.8036,-228.4 418.8036,-228.4 424.8036,-234.4 424.8036,-240.4 424.8036,-240.4 424.8036,-252.4 424.8036,-252.4 424.8036,-258.4 418.8036,-264.4 412.8036,-264.4"></path>
+<text text-anchor="middle" x="386.1564" y="-242.8" font-family="Times,serif" font-size="12.00" fill="#000000">aortic plexus</text>
+</g>
+<!-- prevertebral sympathetic ganglion in abdominal aortic plexus&#45;&gt;aortic plexus -->
+<g id="edge36" class="edge">
+<title>prevertebral sympathetic ganglion in abdominal aortic plexus-&gt;aortic plexus</title>
+<path fill="none" stroke="#000000" d="M404.0724,-312C400.798,-300.0106 397.0356,-286.2345 393.8066,-274.4115"></path>
+<polygon fill="#000000" stroke="#000000" points="397.143,-273.3428 391.132,-264.6183 390.3903,-275.1871 397.143,-273.3428"></polygon>
+</g>
+<!-- T5&#45;T9 intermediolateral cell columns -->
+<g id="node31" class="node">
+<title>T5-T9 intermediolateral cell columns</title>
+<path fill="#eefaec" stroke="#000000" d="M477.7805,-516.7005C477.7805,-516.7005 370.5323,-516.7005 370.5323,-516.7005 364.5323,-516.7005 358.5323,-510.7005 358.5323,-504.7005 358.5323,-504.7005 358.5323,-492.0995 358.5323,-492.0995 358.5323,-486.0995 364.5323,-480.0995 370.5323,-480.0995 370.5323,-480.0995 477.7805,-480.0995 477.7805,-480.0995 483.7805,-480.0995 489.7805,-486.0995 489.7805,-492.0995 489.7805,-492.0995 489.7805,-504.7005 489.7805,-504.7005 489.7805,-510.7005 483.7805,-516.7005 477.7805,-516.7005"></path>
+<text text-anchor="middle" x="424.1564" y="-502" font-family="Times,serif" font-size="12.00" fill="#000000">T5-T9 intermediolateral</text>
+<text text-anchor="middle" x="424.1564" y="-487.6" font-family="Times,serif" font-size="12.00" fill="#000000">cell columns</text>
+</g>
+<!-- T5&#45;T9 intermediolateral cell columns&#45;&gt;greater splanchnic nerve -->
+<g id="edge32" class="edge">
+<title>T5-T9 intermediolateral cell columns-&gt;greater splanchnic nerve</title>
+<path fill="none" stroke="#000000" d="M423.9041,-480.0295C423.7955,-472.1237 423.666,-462.7 423.5456,-453.9335"></path>
+<polygon fill="#000000" stroke="#000000" points="427.0423,-453.6634 423.4052,-443.7124 420.043,-453.7596 427.0423,-453.6634"></polygon>
+</g>
+<!-- T5&#45;T9 intermediolateral cell columns&#45;&gt;lesser splanchnic nerve -->
+<g id="edge33" class="edge">
+<title>T5-T9 intermediolateral cell columns-&gt;lesser splanchnic nerve</title>
+<path fill="none" stroke="#000000" d="M386.5574,-480.0295C366.7316,-470.3428 342.2413,-458.377 321.2764,-448.1338"></path>
+<polygon fill="#000000" stroke="#000000" points="322.7486,-444.9577 312.2272,-443.7124 319.6756,-451.2472 322.7486,-444.9577"></polygon>
+</g>
+<!-- aortic plexus&#45;&gt;ovarian nerve plexus -->
+<g id="edge34" class="edge">
+<title>aortic plexus-&gt;ovarian nerve plexus</title>
+<path fill="none" stroke="#000000" d="M363.5899,-228.26C348.7351,-216.319 329.1018,-200.5369 312.8352,-187.461"></path>
+<polygon fill="#000000" stroke="#000000" points="314.6657,-184.4419 304.6788,-180.9046 310.28,-189.8977 314.6657,-184.4419"></polygon>
+</g>
+</g>
+</svg>

@@ -1,5 +1,6 @@
 # CQ3: What anatomical structures might be affected by perturbation of the IMG?
-# Query for CQ3: This query returns the distinct set of anatomical structures connected to the IMG based on a set of neuron populations in SCKAN with processes in IMG.
+# Query for CQ3: This query returns the distinct set of anatomical structures connected 
+# to the IMG based on a set of neuron populations in SCKAN with processes in IMG.
 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
