@@ -1,0 +1,35 @@
+## CQ1: What connections terminate in bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate? What nerves are involved in those connections?
+## Query for CQ1: This query returns the neuron populations with their origin (soma) located in Region A, axon terminal in Region B, and axon located in region C which is a nerve. Region B of the populations must be a part of the bladder. 
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+## Select distinct neuron populations and their associated regions
+SELECT DISTINCT ?Neuron_ID 
+?A_IRI ?A_Label ?B_IRI ?B_Label ?C_IRI ?C_Label 
+?Target_Organ_IRI ?Target_Organ_Label
+{                
+    ## Filter to only include neuron populations connected to the urinary bladder.
+    FILTER (?Target_Organ_Label = 'urinary bladder').
+    
+    ## Filter to only include C (Axon Location) that is a nerve, nerve plaxus or fiber. 
+    FILTER (?C_Type in ('nerve', 'nerve plexus', 'nerve fiber'))
+
+    ## Only consider neuron populations from SCKAN. 
+    VALUES ?SCKAN_Neuron { ilxtr:NeuronSparcNlp ilxtr:NeuronApinatSimple }
+    
+    ?Neuron_ID rdfs:subClassOf+ ?SCKAN_Neuron;
+               ilxtr:hasSomaLocation ?A_IRI;
+               ilxtr:hasAxonLocation | ilxtr:hasAxonToSensoryTerminal ?C_IRI;   
+               ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation ?B_IRI.
+    
+    ?A_IRI rdfs:label ?A_Label. ?B_IRI rdfs:label ?B_Label. ?C_IRI rdfs:label ?C_Label.
+    
+    ## Check if region C is a subclass* of a nerve, nerve plexus, fiber.
+    ?C_IRI rdfs:subClassOf*/rdfs:label ?C_Type.
+                                                
+    ## Check if Region B is part of the target organ, either directly or transitively.
+    ?B_IRI (ilxtr:isPartOf*)/rdfs:label ?Target_Organ_Label.
+    ?Target_Organ_IRI rdfs:label ?Target_Organ_Label
+}
+ORDER BY ?Neuron_ID ?A_Label ?B_Label ?C_Label

@@ -1,0 +1,24 @@
+# CQ3: What anatomical structures might be affected by perturbation of the IMG?
+# Query for CQ3: This query returns the distinct set of anatomical structures connected to the IMG based on a set of neuron populations in SCKAN with processes in IMG.
+
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/>
+
+SELECT Distinct #?Neuron_ID
+?Location_ID ?Location_Label
+?Connected_Region_ID ?Connected_Region 
+{
+    FILTER (LCase(?Location_Label) = 'inferior mesenteric ganglion').
+   
+    # ilxtr:hasConnectedLocation is equivalent to the implied hasAxonLocation which includes 
+    # the locations of all parts of a neuron i.e., the dendrite, soma, axon, axon terminal, 
+    # and axon sensory terminal.
+    ?Neuron_ID ilxtr:hasConnectedLocation ?Location_ID.
+    ?Location_ID rdfs:label ?Location_Label.
+    
+    ?Neuron_ID ilxtr:hasConnectedLocation ?Connected_Region_ID.
+    ?Connected_Region_ID rdfs:label ?Connected_Region.
+   
+    FILTER (?Location_ID != ?Connected_Region_ID)
+}
+ORDER BY ?Connected_Region

@@ -1,0 +1,56 @@
+Location_ID,Location_Label,Connected_Region_ID,Connected_Region
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793641,Arteriole in circular muscle layer of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793664,Arteriole in connective tissue of bladder dome
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793663,Arteriole in connective tissue of bladder neck
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793642,Arteriole in lamina propria of mucosa of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793643,Arteriole in longitudinal muscle layer of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793644,Arteriole in myenteric nerve plexus of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793645,Arteriole in serosa of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793646,Arteriole in submucous nerve plexus of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0773760,Circular muscle layer of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0738433,Dome of the Bladder
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0790472,Fourth lumbar ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793818,Intermediolateral nucleus of first lumbar segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793819,Intermediolateral nucleus of second lumbar segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006448,L1 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006450,L2 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006449,L3 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006451,L4 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006447,L5 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0738432,L6 segment of lumbar spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0770759,Lamina propria mucosae of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0776070,Longitudinal muscle layer of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793657,Myenteric nerve plexus of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0001211,Peyer's patch
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006460,S1 segment of sacral spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006461,S2 segment of sacral spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0006462,S3 segment of sacral spinal cord
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0771089,Serosa of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793659,Submucosal nerve plexus of descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0788315,Third lumbar ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793362,White communicating ramus of fourth lumbar anterior ramus
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793559,bladder nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0001158,descending colon
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0002857,first lumbar dorsal root ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0785825,gray communicating ramus of first lumbar nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0788536,gray communicating ramus of fourth lumbar nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0785733,gray communicating ramus of second lumbar nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0785932,gray communicating ramus of third lumbar nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0005303,hypogastric nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793632,lumbar colonic nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0018683,lumbar splanchnic nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793823,major pelvic ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0001258,neck of urinary bladder
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0016508,pelvic ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0018675,pelvic splanchnic nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0011926,postganglionic sympathetic fiber
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0004243,prostate gland smooth muscle
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0002856,second lumbar dorsal root ganglion
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0785421,ventral root of the first lumbar spinal cord segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0789968,ventral root of the fourth lumbar spinal cord segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0788675,ventral root of the second lumbar spinal cord segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0787520,ventral root of the third lumbar spinal cord segment
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793220,white communicating ramus of first lumbar spinal nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793221,white communicating ramus of second lumbar spinal nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://uri.interlex.org/base/ilx_0793361,white communicating ramus of third lumbar spinal nerve
+http://purl.obolibrary.org/obo/UBERON_0005453,inferior mesenteric ganglion,http://purl.obolibrary.org/obo/UBERON_0002318,white matter of spinal cord
