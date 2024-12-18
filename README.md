@@ -58,9 +58,9 @@ The diagram on the right in **Figure 2** shows an example of a sympathetic inner
 
 Refer to the [SCKAN article](https://www.biorxiv.org/content/10.1101/2024.10.25.620360v3) to know more about SCKAN along with its modeling principles, curation process, vocabualary management, and competency queries.
 
-## The Phenotypic Relations in SCKAN
+## Phenotypic Relations in SCKAN
 
-To get started with writing SPARQL queries for SCKAN we simply need to know about the phenotypic relations (predicates) supported by [Simple SCKAN](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md) as listed in the tables below.
+To get started with writing SPARQL queries for SCKAN we simply need to know about the phenotypic relations (predicates) supported by [Simple SCKAN](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md) as listed in the tables below. These properties are specified as OWL annotation properties in [simple-sckan-properties.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/simple-sckan-properties.ttl) file.
 
 ### Locational Phenotypes in SCKAN
 
@@ -93,6 +93,19 @@ SCKAN was designed to answer questions relevant to ANS connectivity. To demonstr
 * Navigate to [this directory](./competency-queries/) for the raw query results in CSV format, along with the visual diagrams produced by the SPARQL queries included in this section.
 * For the first three CQs we used [RAWGraphs](https://github.com/rawgraphs/rawgraphs-app) to produce the visual query results. RawGraphs is an open-source tool to create customized vector-based visualizations on top of $d3.js$ library.
 * For the fourth CQ, we developed a custom visualizer utilizing [GraphViz](https://graphviz.org/), an open-source graph visualization library to represent structural information as diagrams.
+
+#### How to Run the Competency Queries
+
+You can use [Stardog Studio](https://www.stardog.com/studio/) as the SPARQL query interface for SCKAN. A Stardog endpoint is set up by the [FDI Lab](https://www.fdilab.org/) to provide access to SCKAN via Stardog Studio.
+
+* [Link to the documentation on how to run SCKAN queries using Stardog Studio](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md#running-simple-sckan-queries-in-stardog)
+
+Alternatively, you can download the SCKAN ontology files (linked below) and load them into your own graph database system that supports SPARQL and SPARQL-star queries.
+
+* Download the SCKAN ontology file from the following link: [npo-simple-sckan-merged.ttl](https://raw.githubusercontent.com/smtifahim/Loading-Simple-SCKAN/refs/heads/main/sckan-to-simple-sckan/generated_ttl/npo-simple-sckan-merged.ttl)
+* You also need to download the UBERON ontology files. You can download them from the following links
+  * [Link for downloading uberon.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon.ttl)
+  * [Link for downloading uberon-reasoned.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon-reasoned.ttl)
 
 #### *CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?*
 
@@ -321,4 +334,13 @@ Figure 6 shows the visualization of the result. The figure shows the origins, te
 
 > **Figure 6**: A visual query result for *CQ-4* with detailed circuitry involved in sympathetic innervation of the ovaries, depicting pre- and post-ganglionic connections, routing, and synaptic locations. ([View the SVG version of this diagram for better resolution](competency-queries/CQ4-Viz.svg))
 
-Explore the [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb).
+# Additional Query Examples
+
+* We have compiled a set of query examples supported by Simple SCKAN (linked below). These examples were written to demonstrate how to use Simple SCKAN predicates to retrieve the key contents of SCKAN using SPARQL.
+
+  * Link: [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb).
+* If you simply want to query the key contents of SCKAN without writing SPARQL queries, please use [SCKAN Explorer](https://services.scicrunch.io/sckan/explorer/). SCKAN Explorer is an intuitive,  web-based search interface to explore the SPARC connectivity knowledge for non-technical domain experts. SCKAN Explorer includes a set of useful SPARQL queries to retreive the basic connectivity information from SCKAN. You can explore the SPARQL queries used by SCKAN Explorer from the following link and execute them using Stardog Studio.
+
+  * [Link to the SPARQL queries for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sparql-queries)
+  * [Link to the query results in JSON format for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sckan-data)
+* We will continue to include additional query examples based on new usecases for SCKAN as part of this document.
