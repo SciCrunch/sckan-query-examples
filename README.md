@@ -1,10 +1,37 @@
 # Exploring SCKAN Using Example Queries
 
-* [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
+This document provides the basic background knowledge necessary to write SPARQL queries to explore SCKAN. It also includes a set of competency quries (CQs) to demonstrate how SCKAN can be used to ask questions relevant to ANS connectivity.
+
+### Jump to the [Query Examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb)
+
+## **Table of Contents**
+
+- [Introduction](#introduction)
+- [Background](#background)
+  * [How SCKAN Models its Connectivity](#how-sckan-models-its-connectivity)
+  * [SCKAN Connectivity Examples](#sckan-connectivity-examples)
+  * [Phenotypic Relations in SCKAN](#phenotypic-relations-in-sckan)
+    + [Locational Phenotypes in SCKAN](#locational-phenotypes-in-sckan)
+    + [Other Phenotypes in SCKAN](#--other-phenotypes-in-sckan--)
+- [SCKAN Competency Queries](#sckan-competency-queries)
+  - [How to Run the Competency Queries](#how-to-run-the-competency-queries)
+  - [*CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?*](#-cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections--)
+    * [**Raw Query Result for *CQ-1***](#--raw-query-result-for--cq-1---)
+    * [Visual Query Result for *CQ-1*](#visual-query-result-for--cq-1-)
+  - [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
+    * [**Raw Query Result for *CQ-2***](#--raw-query-result-for--cq-2---)
+    * [Visual Query Result for *CQ-2*](#visual-query-result-for--cq-2-)
+  - [*CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?*](#-cq-3--what-anatomical-structures-might-be-affected-by-perturbation-of-the-inferior-mesenteric-ganglion--)
+    * [**Raw Query Result for *CQ-3***](#--raw-query-result-for--cq-3---)
+    * [Visual Query Result for *CQ-3*](#visual-query-result-for--cq-3-)
+  - [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
+    * [**Raw Query Result for *CQ-4***](#--raw-query-result-for--cq-4---)
+    * [Visual Query Result for *CQ-4*](#visual-query-result-for--cq-4-)
+- [Additional Query Examples](#additional-query-examples)
 
 # Introduction
 
-The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions ([SPARC](https://commonfund.nih.gov/sparc)) initiative is a large-scale program designed to advance the development of precise and effective bioelectronic neuromodulation therapies for various diseases and conditions. A key component of the SPARC project, the S[PARC Connectivity Knowledgebase of the Autonomic Nervous System](https://sparc.science/resources/6eg3VpJbwQR4B84CjrvmyD) (SCKAN, [RRID:SCR_026088](https://scicrunch.org/resolver/RRID:SCR_026088)), is a dynamic knowledge base of ANS connectivity that contains information about the origins, terminations, and routing of ANS projections between the central nervous system and end organs. The distillation of SPARC's connectivity knowledge into SCKAN involves a rigorous curation process to capture connectivity information provided by experts, published literature, textbooks, and SPARC scientific data. SCKAN is being used within SPARC to generate interactive connectivity maps available via the [SPARC Portal](https://sparc.science/apps/maps?id=7d8ad680).
+The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions ([SPARC](https://commonfund.nih.gov/sparc)) initiative is a large-scale program designed to advance the development of precise and effective bioelectronic neuromodulation therapies for various diseases and conditions. A key component of the SPARC project, the SPARC Connectivity Knowledgebase of the Autonomic Nervous System (SCKAN, [RRID:SCR_026088](https://scicrunch.org/resolver/RRID:SCR_026088)), is a dynamic knowledge base of ANS connectivity that contains information about the origins, terminations, and routing of ANS projections between the central nervous system and end organs. The distillation of SPARC's connectivity knowledge into SCKAN involves a rigorous curation process to capture connectivity information provided by experts, published literature, textbooks, and SPARC scientific data. SCKAN is being used within SPARC to generate interactive connectivity maps available via the [SPARC Portal](https://sparc.science/apps/maps?id=7d8ad680).
 
 ![1734510186322](image/README/1734510186322.jpg)
 
@@ -74,7 +101,7 @@ To get started with writing SPARQL queries for SCKAN we simply need to know abou
 | **hasAxonLeadingToSensoryTerminal** | Expresses a relation between a neuron population and the anatomical structure where its axon distally projects to the axon sensory terminal (i.e., the axon sensory subcellular element).                      |
 | **hasConnectedLocation**            | Expresses a relation between a neuron population and any of its connected location listed above. This property serves as the super property of the properties listed above and not used for direct assertions. |
 
-### **Other Phenotypes in SCKAN**
+### Other Phenotypes in SCKAN
 
 | Phenotypic Relation                | Description                                                                                                                                                                                                                                                                                                                      |
 | ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -86,7 +113,7 @@ To get started with writing SPARQL queries for SCKAN we simply need to know abou
 | **hasPhenotypicSex**         | Expresses a relationship between a neuron type and a biological sex. Used when a neuron population has been observed in a specific sex.<br />- **Male** or **Female** from **PATO**                                                                                                                          |
 | **hasForwardConnection**     | Expresses a relationship to specify the synaptic forward connection from a pre-ganglionic neuron population to a post-ganglionic neuron population.                                                                                                                                                                             |
 
-## SCKAN Competency Queries
+# SCKAN Competency Queries
 
 SCKAN was designed to answer questions relevant to ANS connectivity. To demonstrate the functionality of SCKAN we developed a set of competency queries (CQ). In this section, we work through the CQs and examine the results. For each question, we provide the SPARQL query and a visualization of the query results. All of the SPARQL queries listed in this section are written using Simple SCKAN.
 
@@ -96,16 +123,13 @@ SCKAN was designed to answer questions relevant to ANS connectivity. To demonstr
 
 #### How to Run the Competency Queries
 
-You can use [Stardog Studio](https://www.stardog.com/studio/) as the SPARQL query interface for SCKAN. A Stardog endpoint is set up by the [FDI Lab](https://www.fdilab.org/) to provide access to SCKAN via Stardog Studio.
-
-* [Link to the documentation on how to run SCKAN queries using Stardog Studio](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md#running-simple-sckan-queries-in-stardog)
-
-Alternatively, you can download the SCKAN ontology files (linked below) and load them into your own graph database system that supports SPARQL and SPARQL-star queries.
-
-* Download the SCKAN ontology file from the following link: [npo-simple-sckan-merged.ttl](https://raw.githubusercontent.com/smtifahim/Loading-Simple-SCKAN/refs/heads/main/sckan-to-simple-sckan/generated_ttl/npo-simple-sckan-merged.ttl)
-* You also need to download the UBERON ontology files. You can download them from the following links
-  * [Link for downloading uberon.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon.ttl)
-  * [Link for downloading uberon-reasoned.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon-reasoned.ttl)
+* You can use [Stardog Studio](https://www.stardog.com/studio/) as the SPARQL query interface for SCKAN. A Stardog endpoint is set up by the [FDI Lab](https://www.fdilab.org/) to provide access to SCKAN via Stardog Studio.
+  * [Link to the documentation on how to run SCKAN queries using Stardog Studio](https://github.com/SciCrunch/sparc-curation/blob/master/docs/simple-sckan/readme.md#running-simple-sckan-queries-in-stardog)
+* Alternatively, you can download the SCKAN plus the UBERON ontology files (linked below) and load them into your own graph database system that supports SPARQL and SPARQL-star queries.
+  * Download the SCKAN ontology file from the following link: [npo-simple-sckan-merged.ttl](https://raw.githubusercontent.com/smtifahim/Loading-Simple-SCKAN/refs/heads/main/sckan-to-simple-sckan/generated_ttl/npo-simple-sckan-merged.ttl)
+  * Download the UBERON ontology files from the following links:
+    * [Link for downloading uberon.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon.ttl)
+    * [Link for downloading uberon-reasoned.ttl](https://github.com/smtifahim/Loading-Simple-SCKAN/blob/main/sckan-to-simple-sckan/input_ttl/uberon-reasoned.ttl)
 
 #### *CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections terminate. What nerves are involved in those connections?*
 
@@ -261,7 +285,7 @@ The visual result in **Figure 5** shows the $55$ unique structures that could po
 
 ![1734522602966](image/README/1734522602966.jpg)
 
-**Figure 5:** A visual query result for *CQ-3* showing the 55 potential anatomical structures in SCKAN that might be affected by perturbing the inferior mesenteric ganglion. ([View the SVG version of this diagram for better resolution](competency-queries/CQ3-Viz.svg))
+> **Figure 5:** A visual query result for *CQ-3* showing the 55 potential anatomical structures in SCKAN that might be affected by perturbing the inferior mesenteric ganglion. ([View the SVG version of this diagram for better resolution](competency-queries/CQ3-Viz.svg))
 
 #### CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.
 
@@ -288,7 +312,7 @@ WHERE
     ?Target_Neuron (ilxtr:hasAxonTerminalLocation | ilxtr:hasAxonSensoryLocation) ?Final_Terminal.
     # Final terminal of the Target Neuron must be a part of Target Organ.
     ?Final_Terminal (ilxtr:isPartOf* | ilxtr:suppliesTo*)/rdfs:label ?Target_Organ.
-       
+   
     # Get all neurons that are synaptically connected to the Target_Neuron
     OPTIONAL { ?Neuron_Connected ilxtr:hasForwardConnection* ?Target_Neuron. }
   
