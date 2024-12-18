@@ -45,8 +45,6 @@ In this document, we provide the background knowledge needed to write SPARQL que
 
 # Background
 
-In this section, we provide the background knowledge needed to understand how SCKAN models its connectivity along with the list of phenotypic relations (predicates) needed for writing SPARQL queries.
-
 ## How SCKAN Models its Connectivity
 
 SCKAN models connectivity at the neuronal level, where connections are represented based on the locations of neuronal cell bodies, axon segments, dendrites, and axon terminals. Each connection represents a population of PNS neurons with a given PNS phenotype (e.g. sympathetic pre-ganglionic) that projects to a given set of targets, where the exact cell type identity may not be known. A neuron population in SCKAN refers to a set of neurons with shared phenotypic properties without specifying the neron types. The connectivity of a neuron population is modeled based on its locational phenotypes using the following form:
