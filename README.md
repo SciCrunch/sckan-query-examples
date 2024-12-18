@@ -14,19 +14,19 @@ This document provides the basic background knowledge necessary to explore SCKAN
     + [Locational Phenotypes in SCKAN](#locational-phenotypes-in-sckan)
     + [Other Phenotypes in SCKAN](#other-phenotypes-in-sckan)
 - [SCKAN Competency Queries](#sckan-competency-queries)
-  	- [How to Run the Competency Queries](#how-to-run-the-competency-queries)
-  	- [CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections 	terminate. What nerves are involved in those connections?](#cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections-)
-  		* [Raw Query Result for CQ-1](#raw-query-result-for-cq-1)
-  		* [Visual Query Result for CQ-1](#visual-query-result-for-cq-1)
-  	- [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
-  		* [Raw Query Result for CQ-2](#raw-query-result-for-cq-2)
-  		* [Visual Query Result for CQ-2](#visual-query-result-for-cq-2)
-  	- [CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?](#cq-3--what-anatomical-structures-might-be-affected-by-perturbation-of-the-inferior-mesenteric-ganglion-)
-  		* [Raw Query Result for CQ-3](#raw-query-result-for-cq-3)
-  		* [Visual Query Result for CQ-3](#visual-query-result-for-cq-3)
-  	- [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
-  		* [Raw Query Result for CQ-4](#raw-query-result-for-cq-4)
-  		* [Visual Query Result for CQ-4](#visual-query-result-for-cq-4)
+  - [How to Run the Competency Queries](#how-to-run-the-competency-queries)
+  - [CQ-1: What connections terminate in the bladder? What are the origins of those connections and what are the exact parts of the organ the connections 	terminate. What nerves are involved in those connections?](#cq-1--what-connections-terminate-in-the-bladder--what-are-the-origins-of-those-connections-and-what-are-the-exact-parts-of-the-organ-the-connections-terminate-what-nerves-are-involved-in-those-connections-)
+    * [Raw Query Result for CQ-1](#raw-query-result-for-cq-1)
+    * [Visual Query Result for CQ-1](#visual-query-result-for-cq-1)
+  - [CQ-2: What are all origins and destinations of neuron populations traveling through the vagus?](#cq-2--what-are-all-origins-and-destinations-of-neuron-populations-traveling-through-the-vagus-)
+    * [Raw Query Result for CQ-2](#raw-query-result-for-cq-2)
+    * [Visual Query Result for CQ-2](#visual-query-result-for-cq-2)
+  - [CQ-3: What anatomical structures might be affected by perturbation of the inferior mesenteric ganglion?](#cq-3--what-anatomical-structures-might-be-affected-by-perturbation-of-the-inferior-mesenteric-ganglion-)
+    * [Raw Query Result for CQ-3](#raw-query-result-for-cq-3)
+    * [Visual Query Result for CQ-3](#visual-query-result-for-cq-3)
+  - [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
+    * [Raw Query Result for CQ-4](#raw-query-result-for-cq-4)
+    * [Visual Query Result for CQ-4](#visual-query-result-for-cq-4)
 - [Additional Query Examples](#additional-query-examples)
 
 # Introduction
@@ -89,15 +89,15 @@ To get started with writing SPARQL queries for SCKAN we simply need to know abou
 
 ### Locational Phenotypes in SCKAN
 
-| Phenotypic Relation                       | Description                                                                                                                                                                                                    |
-| ----------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **hasSomaLocation**                 | Expresses a relation between a neuron population and its origin i.e., location of the cell body                                                                                                                |
-| **hasAxonLocation**                 | Expresses a relation between a neuron population and its axon location                                                                                                                                        |
-| **hasDendriteLocation**             | Expresses a relation between a neuron population and its dendrite location                                                                                                                                    |
-| **hasAxonTerminalLocation**         | Expresses a relation between a neuron population and its axon terminal location (i.e., the location of the axon presynaptic element)                                                                           |
-| **hasAxonSensoryLocation**          | Expresses a relation between a neuron population and its sensory axon terminal location (i.e., the location of the axon sensory subcellular element)                                                          |
-| **hasAxonLeadingToSensoryTerminal** | Expresses a relation between a neuron population and the anatomical structure where its axon distally projects to the axon sensory terminal (i.e., the axon sensory subcellular element).                      |
-| **hasConnectedLocation**            | Expresses a relation between a neuron population and any of its connected location listed above. This property serves as the super property of the properties listed above and not used for direct assertions. |
+| Phenotypic Relation                | Description                                                                                                                                                                                                    |
+| ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **hasSomaLocation**          | Expresses a relation between a neuron population and its origin i.e., location of the cell body                                                                                                                |
+| **hasAxonLocation**          | Expresses a relation between a neuron population and its axon location                                                                                                                                        |
+| **hasDendriteLocation**      | Expresses a relation between a neuron population and its dendrite location                                                                                                                                    |
+| **hasAxonTerminalLocation**  | Expresses a relation between a neuron population and its axon terminal location (i.e., the location of the axon presynaptic element)                                                                           |
+| **hasAxonSensoryLocation**   | Expresses a relation between a neuron population and its sensory axon terminal location (i.e., the location of the axon sensory subcellular element)                                                          |
+| **hasAxonToSensoryTerminal** | Expresses a relation between a neuron population and the anatomical structure where its axon distally projects to the axon sensory terminal (i.e., the axon sensory subcellular element).                      |
+| **hasConnectedLocation**     | Expresses a relation between a neuron population and any of its connected location listed above. This property serves as the super property of the properties listed above and not used for direct assertions. |
 
 ### Other Phenotypes in SCKAN
 
@@ -285,7 +285,7 @@ The visual result in **Figure 5** shows the $55$ unique structures that could po
 
 > **Figure 5:** A visual query result for *CQ-3* showing the 55 potential anatomical structures in SCKAN that might be affected by perturbing the inferior mesenteric ganglion. ([View the SVG version of this diagram for better resolution](competency-queries/CQ3-Viz.svg))
 
-#### CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.
+#### CQ-4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.
 
 This query looks for all pre- and post-ganglionic sympathetic populations connected via a forward connection where the post- ganglionic neurons terminate in the ovary. SCKAN currently connects pre- and post- ganglionic populations through the `hasForwardConnection` property, but the property is not reciprocal. **Listing 4** provides the SPARQL query for *CQ-4*.
 
@@ -366,3 +366,6 @@ Figure 6 shows the visualization of the result. The figure shows the origins, te
   * [Link to the SPARQL queries for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sparql-queries)
   * [Link to the query results in JSON format for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sckan-data)
 * We will continue to include additional query examples based on new usecases for SCKAN as part of this document.
+
+
+---
