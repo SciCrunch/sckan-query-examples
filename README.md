@@ -330,7 +330,7 @@ WHERE
     # Check if ?V2_ID is associated with a synapse
     OPTIONAL 
     {
-        ?Neuron_Connnected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
+        ?Neuron_Connected ilxtr:hasForwardConnection/ilxtr:hasSomaLocation ?Synapse.
         FILTER (?V2_ID = ?Synapse)
         FILTER (?V2_Type = "hasAxonTerminalLocation")
     }
