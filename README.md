@@ -37,9 +37,9 @@ The NIH Common Fund's Stimulating Peripheral Activity to Relieve Conditions ([SP
 
 > **Figure 0:** A high-level depiction of SCKAN’s knowledge construction flow, starting with the extraction and distillation of connectivity knowledge from different sources, followed by the curation and transformation of this knowledge into formal representations, and finally, making the knowledgebase available via different graph database endpoints.
 
-**Figure 0** provides a high-level depiction of SCKAN’s knowledge construction flow. To know more about SCKAN and the details of its knowledge construction flow depicted in the figure, refer to the following article.
+**Figure 0** provides a high-level depiction of SCKAN’s knowledge construction flow. To learn more about SCKAN and the details of its knowledge construction flow depicted in the figure, refer to the following article.
 
-* Imam FT, Gillespie TH, Ziogas I, Surles-Zeigler MC, Tappan S, Ozyurt BI, Boline J, de Bono B, Grethe JS, Martone ME (2024). [Developing a Multiscale Neural Connectivity Knowledgebase of the Autonomic Nervous System](https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2025.1541184/full). Frontiers in Neuroinformatics, Vol. 19 (2025). DOI: https://doi.org/10.3389/fninf.2025.1541184.
+* Imam FT, Gillespie TH, Ziogas I, Surles-Zeigler MC, Tappan S, Ozyurt BI, Boline J, de Bono B, Grethe JS, Martone ME (2025). [Developing a Multiscale Neural Connectivity Knowledgebase of the Autonomic Nervous System](https://www.frontiersin.org/journals/neuroinformatics/articles/10.3389/fninf.2025.1541184/full). Frontiers in Neuroinformatics, Vol. 19, 2025. DOI: https://doi.org/10.3389/fninf.2025.1541184.
 
 In this document, we provide the background knowledge needed to write SPARQL queries to explore SCKAN. We also include a set of competency quries (CQs) to demonstrate how SCKAN can be used to ask questions relevant to ANS connectivity.
 
