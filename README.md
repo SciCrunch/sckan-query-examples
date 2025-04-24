@@ -89,8 +89,9 @@ To get started with writing SPARQL queries for SCKAN we simply need to know abou
 
 ### Locational Phenotypes in SCKAN
 
-| Phenotypic Relation                | Description                                                                                                                                                                                                    |
-| ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+| Phenotypic Relation          | Description                                                                                                                                                                                                    |
+| ---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **hasSomaLocation**          | Expresses a relation between a neuron population and its origin i.e., location of the cell body                                                                                                                |
 | **hasAxonLocation**          | Expresses a relation between a neuron population and its axon location                                                                                                                                        |
 | **hasDendriteLocation**      | Expresses a relation between a neuron population and its dendrite location                                                                                                                                    |
@@ -101,15 +102,16 @@ To get started with writing SPARQL queries for SCKAN we simply need to know abou
 
 ### Other Phenotypes in SCKAN
 
-| Phenotypic Relation                | Description                                                                                                                                                                                                                                                                                                                      |
-| ---------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+| Phenotypic Relation          | Description                                                                                                                                                                                                                                                                                        |
+| ---------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **hasNeuronalPhenotype**     | Expresses a relation between a neuron population and its ANS phenotype<br />- **Pre-Ganglionic or Post-Ganglionic**, **Sympathetic** or **Parasympathetic**<br />- Combinations like  **Sympathetic  Pre-Ganglionic** or **Parasympathetic Post-Ganglionic**                                    |
-| **hasFunctionalCircuitRole** | Expresses a relation between a neuron population and its immediate effect on postsynaptic cells<br />- **Excitatory** or **Inhibitory**                                                                                                                                                                           |
-| **hasCircuitRole**           | Expresses a relation between a neuron population and its circuit role phenotype<br />- Possible phenotypes are: **Intrinsic**, **Motor**, **Sensory**, or **Projection**                                                                                                                               |
+| **hasFunctionalCircuitRole** | Expresses a relation between a neuron population and its immediate effect on postsynaptic cells<br />- **Excitatory** or **Inhibitory**                                                                                                                                                         |
+| **hasCircuitRole**           | Expresses a relation between a neuron population and its circuit role phenotype<br />- Possible phenotypes are: **Intrinsic**, **Motor**, **Sensory**, or **Projection**                                                                                                                         |
 | **hasProjection**            | Expresses a relation between a neuron population and a brain region where the neuron population sends axons towards<br />- **Spinal cord descending projection**, **Spinal cord ascending projection**<br />- **Intestino fugal projection**, **Anterior projecting**, **Posterior projecting** |
-| **isObservedInSpecies**      | Expresses a relationship between a neuron type and a taxon. Used when a neuron population has een observed in a specific species.<br />- **Species** from **NCBI Taxonomy**                                                                                                                                         |
-| **hasPhenotypicSex**         | Expresses a relationship between a neuron type and a biological sex. Used when a neuron population has been observed in a specific sex.<br />- **Male** or **Female** from **PATO**                                                                                                                          |
-| **hasForwardConnection**     | Expresses a relationship to specify the synaptic forward connection from a pre-ganglionic neuron population to a post-ganglionic neuron population.                                                                                                                                                                             |
+| **isObservedInSpecies**      | Expresses a relationship between a neuron type and a taxon. Used when a neuron population has een observed in a specific species.<br />- **Species** from **NCBI Taxonomy**                                                                                                                       |
+| **hasPhenotypicSex**         | Expresses a relationship between a neuron type and a biological sex. Used when a neuron population has been observed in a specific sex.<br />- **Male** or **Female** from **PATO**                                                                                                              |
+| **hasForwardConnection**     | Expresses a relationship to specify the synaptic forward connection from a pre-ganglionic neuron population to a post-ganglionic neuron population.                                                                                                                                               |
 
 # SCKAN Competency Queries
 
@@ -356,16 +358,18 @@ Figure 6 shows the visualization of the result. The figure shows the origins, te
 
 > **Figure 6**: A visual query result for *CQ-4* with detailed circuitry involved in sympathetic innervation of the ovaries, depicting pre- and post-ganglionic connections, routing, and synaptic locations. ([View the SVG version of this diagram for better resolution](competency-queries/CQ4-Viz.svg))
 
-# Additional Query Examples
+# Additional Query Examples and Interfaces
 
 * We have compiled a set of query examples supported by Simple SCKAN (linked below). These examples were written to demonstrate how to use Simple SCKAN predicates to retrieve the key contents of SCKAN using SPARQL.
-
   * Link: [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb).
 * If you simply want to query the key contents of SCKAN without writing SPARQL queries, please use [SCKAN Explorer](https://services.scicrunch.io/sckan/explorer/). SCKAN Explorer is an intuitive,  web-based search interface to explore the SPARC connectivity knowledge for non-technical domain experts. SCKAN Explorer includes a set of useful SPARQL queries to retreive the basic connectivity information from SCKAN. You can explore the SPARQL queries used by SCKAN Explorer from the following link and execute them using Stardog Studio.
-
-  * [Link to the SPARQL queries for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sparql-queries)
+  * [Introduction to SCKAN Explorer]() 
+  * [Link to the SPARQL queries for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer)
   * [Link to the query results in JSON format for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sckan-data)
+* If you want to query SCKAN by simply using natural langiage expressions, please use [SCKAN NLI](http://fdi-nlp.ucsd.edu/). The SCKAN Natural Language Interface (SCKAN NLI) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the GPT-4o mini (“o” for “omni”) model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions.
+  * [Introduction to SCKAN NLI](https://github.com/smtifahim/SCKAN-Apps/blob/master/sckan-explorer/json/sckan-nli/sckan-nli-intro.md)
+  * [Link to the SPARQL queries used in SCKAN NLI](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/sckan-nli/sparql-queries)
+  * [Link to the query results for SCKAN NLI](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/sckan-nli/sckan-nli-data)
 * We will continue to include additional query examples based on new usecases for SCKAN as part of this document.
-
 
 ---
