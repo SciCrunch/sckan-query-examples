@@ -27,7 +27,7 @@ This document provides the basic background knowledge necessary to explore SCKAN
   - [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
     * [Raw Query Result for CQ-4](#raw-query-result-for-cq-4)
     * [Visual Query Result for CQ-4](#visual-query-result-for-cq-4)
-- [Additional Query Examples](#additional-query-examples)
+- [Additional Query Examples](#additional-query-examples-and-queries-used-for-sckan-user-interfaces)
 
 # Introduction
 
@@ -358,12 +358,12 @@ Figure 6 shows the visualization of the result. The figure shows the origins, te
 
 > **Figure 6**: A visual query result for *CQ-4* with detailed circuitry involved in sympathetic innervation of the ovaries, depicting pre- and post-ganglionic connections, routing, and synaptic locations. ([View the SVG version of this diagram for better resolution](competency-queries/CQ4-Viz.svg))
 
-# Additional Query Examples and Interfaces
+# Additional Query Examples and Queries Used for SCKAN User Interfaces
 
 * We have compiled a set of query examples supported by Simple SCKAN (linked below). These examples were written to demonstrate how to use Simple SCKAN predicates to retrieve the key contents of SCKAN using SPARQL.
   * Link: [Query examples in Jupyter Notebook](example-queries/sckan-sparql-query-examples.ipynb).
 * If you simply want to query the key contents of SCKAN without writing SPARQL queries, please use [SCKAN Explorer](https://services.scicrunch.io/sckan/explorer/). SCKAN Explorer is an intuitive,  web-based search interface to explore the SPARC connectivity knowledge for non-technical domain experts. SCKAN Explorer includes a set of useful SPARQL queries to retreive the basic connectivity information from SCKAN. You can explore the SPARQL queries used by SCKAN Explorer from the following link and execute them using Stardog Studio.
-  * [Introduction to SCKAN Explorer]() 
+  * [Introduction to SCKAN Explorer]()
   * [Link to the SPARQL queries for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer)
   * [Link to the query results in JSON format for SCKAN Explorer](https://github.com/smtifahim/SCKAN-Apps/tree/master/sckan-explorer/json/explorer-data/sckan-data)
 * If you want to query SCKAN by simply using natural langiage expressions, please use [SCKAN NLI](http://fdi-nlp.ucsd.edu/). The SCKAN Natural Language Interface (SCKAN NLI) is an AI-based query interface customized for retrieving high-level connectivity knowledge from SCKAN. The NLI leverages the GPT-4o mini (“o” for “omni”) model to extract contextual semantic frames related to SCKAN's connectivity knowledge and generates answers using natural language expressions.
