@@ -27,7 +27,7 @@ This document provides the basic background knowledge necessary to explore SCKAN
   - [CQ4: How is sympathetic innervation supplied to the ovaries? Show the origins, terminations, and routing for both pre- and post-ganglionic connections.](#cq4--how-is-sympathetic-innervation-supplied-to-the-ovaries--show-the-origins--terminations--and-routing-for-both-pre--and-post-ganglionic-connections)
     * [Raw Query Result for CQ-4](#raw-query-result-for-cq-4)
     * [Visual Query Result for CQ-4](#visual-query-result-for-cq-4)
-- [Additional Query Examples](#additional-query-examples-and-queries-used-for-sckan-user-interfaces)
+- [Additional Query Examples and Queries Used for SCKAN User Interfaces](#additional-query-examples-and-queries-used-for-sckan-user-interfaces)
 
 # Introduction
 
